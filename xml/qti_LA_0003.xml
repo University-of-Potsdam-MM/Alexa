@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p2  http://www.imsglobal.org/xsd/qti/qtiv2p2/imsqti_v2p2.xsd"
+	identifier="ITM_LA_0003" title="LA_0003" adaptive="false" timeDependent="false">
+	<responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+		<correctResponse>
+			
+						
+						
+						
+						<value>resp0004</value>
+								</correctResponse>
+	</responseDeclaration>
+	<outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float">
+		<defaultValue>
+			<value>1</value>
+		</defaultValue>
+	</outcomeDeclaration>
+	<itemBody>
+		<choiceInteraction responseIdentifier="RESPONSE" shuffle="false" maxChoices="1">
+			<prompt>Kannst du mir sagen, wie viele Bundeslaender Deutschland hat?</prompt>
+			
+			<simpleChoice identifier="resp0001">zehn</simpleChoice>
+			
+			<simpleChoice identifier="resp0002">zwoelf</simpleChoice>
+			
+			<simpleChoice identifier="resp0003">vierzehn</simpleChoice>
+			
+			<simpleChoice identifier="resp0004">sechzehn</simpleChoice>
+					</choiceInteraction>
+	</itemBody>
+	<responseProcessing
+		template="http://www.imsglobal.org/question/qti_v2p2/rptemplates/match_correct"/>
+</assessmentItem>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p2  http://www.imsglobal.org/xsd/qti/qtiv2p2/imsqti_v2p2.xsd"
+	identifier="ITM_${id}" title="${title}" adaptive="false" timeDependent="false">
+	<responseDeclaration identifier="RESPONSE" cardinality="multiple" baseType="pair">
+		<correctResponse>
+			#foreach ($response in $content.responses)
+				#if ($response.type == 'a')
+					<value>${response.id} ${response.associated}</value>
+				#end
+			#end
+		</correctResponse>
+		<mapping defaultValue="0">
+			#foreach ($response in $content.responses)
+				#if ($response.type == 'a')
+					<mapEntry mapKey="${response.id} ${response.associated}" mappedValue="${response.score}"/>
+				#end
+			#end
+		</mapping>
+	</responseDeclaration>
+	<outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+	<itemBody>
+		<associateInteraction responseIdentifier="RESPONSE" shuffle="true" maxAssociations="3">
+			<prompt>$content.question</prompt>
+			#foreach ($response in $content.responses)
+			<simpleAssociableChoice identifier="${response.id}" matchMax="1">${response.response}</simpleAssociableChoice>
+			#end
+		</associateInteraction>
+	</itemBody>
+	<responseProcessing
+		template="http://www.imsglobal.org/question/qti_v2p2/rptemplates/map_response"/>
+</assessmentItem>

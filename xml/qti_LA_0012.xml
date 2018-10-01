@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knowledgeItem identifier="ITM_LA_0012" title="LA_0012" adaptive="false" timeDependent="false">
+	<outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+	<itemBody>
+		<fact>
+			<prompt>Deutschland ist eines der waldreichsten Laender in der Europaeischen Union. Die aktuelle Baumartenzusammensetzung entspricht nur zum geringen Teil den natuerlichen Gegebenheiten und wird hauptsaechlich von der Forstwirtschaft bestimmt.</prompt>
+		</fact>
+	</itemBody>
+</knowledgeItem>

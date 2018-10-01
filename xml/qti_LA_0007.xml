@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knowledgeItem identifier="ITM_LA_0007" title="LA_0007" adaptive="false" timeDependent="false">
+	<outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+	<itemBody>
+		<fact>
+			<prompt>Metropolen neben Berlin sind Hamburg, Muenchen, Koeln, Frankfurt, Stuttgart und Duesseldorf. Der groesste Ballungsraum ist das Ruhrgebiet. Das flaechenmaessig groesste Bundesland ist Bayern.</prompt>
+		</fact>
+	</itemBody>
+</knowledgeItem>

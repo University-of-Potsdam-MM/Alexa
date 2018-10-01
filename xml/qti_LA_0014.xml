@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knowledgeItem identifier="ITM_LA_0014" title="LA_0014" adaptive="false" timeDependent="false">
+	<outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+	<itemBody>
+		<fact>
+			<prompt>Die haeufigsten Baumarten sind die Gemeine Fichte, gefolgt von der Waldkiefer, der Rotbuche und den Eichen.</prompt>
+		</fact>
+	</itemBody>
+</knowledgeItem>

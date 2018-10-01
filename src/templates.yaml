@@ -1,0 +1,20 @@
+on_launch: Hallo.
+whois: Wer spricht da?
+welcome: Hallo {{name}}. Schön, dass du da bist!
+welcome_back: Hallo {{name}}. Schön, dass du wieder da bist!
+newuser: Hallo {{name}}. Anscheinend kennen wir uns noch nicht. Darf ich mich vorstellen? Mein Name ist Alexa und ich kann dir beim Lernen helfen. Dafür muss ich mir merken, wer du bist. Darf ich ein Profil für dich anlegen?
+ask_for_topic: Ich habe folgende Themen zur Auswahl. {{topics}}. Welches Thema möchtest du lernen?
+ask_for_continue: Du hast zuletzt das Thema {{topic}} gelernt. Möchstest du dieses Thema fortsetzen?
+yes_profile: Danke für dein Vertrauen.
+no_profile: Schade, ohne ein Profil kann ich dir leider nicht weiterhelfen. Du kannst deine Entscheidung jederzeit ändern.
+topic_not_found: Thema nicht gefunden. 
+user_unknown: Ich kann {{name}} leider nicht einloggen, da noch kein Profil vorhanden ist. Soll ich für dich ein Profil anlegen? 
+user_loggedin: Ich habe {{name}} jetzt bis auf weiteres eingeloggt.
+no_question_hint: Ich kann dir nur einen Hinweis geben, wenn ich dir zuvor eine Frage gestellt habe.
+fin_topic: Du hast das Thema beendet.
+on_stop: Bis später.
+on_cancel: Bis dann.
+help_topic: Nenne den Namen von eines der Themen.
+help_name: Nenne mir einfach deinen Vornamen.
+help_new_profile: Sage Ja, wenn ich ein neues Profil für dich anlegensoll. Ansonsten sag Nein.
+help_answer: Sage Weiter um einen Fakt oder eine Frage zu überspringen. Mit Hinweis gebe ich dir einen Tipp zur Lösung. Weisst du die Antwort, dass sage Antwort gefolgt von deiner Lösung.

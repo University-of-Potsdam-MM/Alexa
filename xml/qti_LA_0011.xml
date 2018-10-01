@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p2  http://www.imsglobal.org/xsd/qti/qtiv2p2/imsqti_v2p2.xsd"
+	identifier="ITM_LA_0011" title="LA_0011" adaptive="false" timeDependent="false">
+	<responseDeclaration identifier="RESPONSE" cardinality="ordered" baseType="identifier">
+		<correctResponse>
+						
+				
+									
+									
+									
+											<value>resp0004</value>
+																
+				
+											<value>resp0001</value>
+									
+									
+									
+																
+				
+									
+									
+											<value>resp0003</value>
+									
+																
+				
+									
+											<value>resp0002</value>
+									
+									
+																		</correctResponse>
+	</responseDeclaration>
+	<outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+	<itemBody>
+		<orderInteraction responseIdentifier="RESPONSE" shuffle="true">
+			<prompt>Wodurch ist in Deutschland die meiste Flaeche bedeckt? Sortiere absteigend!</prompt>
+			
+			<simpleChoice identifier="resp0001">wald</simpleChoice>
+			
+			<simpleChoice identifier="resp0002">wasser</simpleChoice>
+			
+			<simpleChoice identifier="resp0003">siedlungen</simpleChoice>
+			
+			<simpleChoice identifier="resp0004">landwirtschaft</simpleChoice>
+					</orderInteraction>
+	</itemBody>
+	<responseProcessing
+		template="http://www.imsglobal.org/question/qti_v2p2/rptemplates/match_correct"/>
+</assessmentItem>

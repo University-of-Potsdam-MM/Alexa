@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p2  http://www.imsglobal.org/xsd/qti/qtiv2p2/imsqti_v2p2.xsd"
+	identifier="ITM_LA_0008" title="LA_0008" adaptive="false" timeDependent="false">
+	<responseDeclaration identifier="RESPONSE" cardinality="multiple" baseType="identifier">
+		<correctResponse>
+			
+						<value>resp0001</value>
+						
+						
+						<value>resp0003</value>
+						
+								</correctResponse>
+		<mapping defaultValue="0">
+			
+			<mapEntry mapKey="resp0001" mappedValue="1"/>
+			
+			<mapEntry mapKey="resp0002" mappedValue="0"/>
+			
+			<mapEntry mapKey="resp0003" mappedValue="1"/>
+			
+			<mapEntry mapKey="resp0004" mappedValue="0"/>
+					</mapping>
+	</responseDeclaration>
+	<outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+	<itemBody>
+		<choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="0">
+			<prompt>Welche der genannten Staedte gelten als Metropolen?</prompt>
+			
+			<simpleChoice identifier="resp0001" fixed="false">koeln</simpleChoice>
+			
+			<simpleChoice identifier="resp0002" fixed="false">hannover</simpleChoice>
+			
+			<simpleChoice identifier="resp0003" fixed="false">frankfurt</simpleChoice>
+			
+			<simpleChoice identifier="resp0004" fixed="false">bremen</simpleChoice>
+					</choiceInteraction>
+	</itemBody>
+	<responseProcessing
+		template="http://www.imsglobal.org/question/qti_v2p2/rptemplates/map_response"/>
+</assessmentItem>

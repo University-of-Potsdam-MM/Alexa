@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knowledgeItem identifier="ITM_LA_0016" title="LA_0016" adaptive="false" timeDependent="false">
+	<outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+	<itemBody>
+		<fact>
+			<prompt>Weizen ist das Hauptgetreide in gemaessigten Klimazonen. Es zaehlt neben Mais und Reis zu den wichtigsten Grundnahrungsmitteln weltweit. Darum beanstanden Kritiker die wertvolle Nutzpfanzenflaeche fuer die Energieerzeugung zu entwenden.</prompt>
+		</fact>
+	</itemBody>
+</knowledgeItem>

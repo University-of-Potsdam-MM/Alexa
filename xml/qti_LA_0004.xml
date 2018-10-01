@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knowledgeItem identifier="ITM_LA_0004" title="LA_0004" adaptive="false" timeDependent="false">
+	<outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+	<itemBody>
+		<fact>
+			<prompt>An Deutschland grenzen neun Staaten und zwei Meere. Deutschland besitzt insgesamt sieben Metropolen.</prompt>
+		</fact>
+	</itemBody>
+</knowledgeItem>

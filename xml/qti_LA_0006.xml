@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p2  http://www.imsglobal.org/xsd/qti/qtiv2p2/imsqti_v2p2.xsd"
+	identifier="ITM_LA_0006" title="LA_0006" adaptive="false" timeDependent="false">
+	<responseDeclaration identifier="RESPONSE" cardinality="multiple" baseType="string">
+		<correctResponse>
+			
+			<value>berlin</value>
+			
+			<value>hamburg</value>
+			
+			<value>muenchen</value>
+			
+			<value>koeln</value>
+			
+			<value>frankfurt</value>
+			
+			<value>stuttgart</value>
+			
+			<value>duesseldorf</value>
+					</correctResponse>
+		<mapping defaultValue="0">
+			
+			<mapEntry mapKey="berlin" mappedValue="1"/>
+			
+			<mapEntry mapKey="hamburg" mappedValue="1"/>
+			
+			<mapEntry mapKey="muenchen" mappedValue="1"/>
+			
+			<mapEntry mapKey="koeln" mappedValue="1"/>
+			
+			<mapEntry mapKey="frankfurt" mappedValue="1"/>
+			
+			<mapEntry mapKey="stuttgart" mappedValue="1"/>
+			
+			<mapEntry mapKey="duesseldorf" mappedValue="1"/>
+					</mapping>
+	</responseDeclaration>
+	<outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+	<itemBody>
+		<prompt>Kannst du mir eine deutsche Metropole nennen?</prompt>
+		<textEntryInteraction responseIdentifier="RESPONSE"/>;<br/>
+	</itemBody>
+	<responseProcessing
+		template="http://www.imsglobal.org/question/qti_v2p2/rptemplates/map_response"/>
+</assessmentItem>

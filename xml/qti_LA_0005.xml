@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knowledgeItem identifier="ITM_LA_0005" title="LA_0005" adaptive="false" timeDependent="false">
+	<outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+	<itemBody>
+		<fact>
+			<prompt>An Deutschland grenzen neun Staaten, im Norden die Gewaesser der Nord- und Ostsee und im Sueden das Bergland der Alpen. Es liegt in der gemaessigten Klimazone und verfuegt ueber viele National- und Naturparks. Bundeshauptstadt sowie bevoelkerungsreichste deutsche Stadt ist Berlin.</prompt>
+		</fact>
+	</itemBody>
+</knowledgeItem>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knowledgeItem identifier="ITM_LA_0009" title="LA_0009" adaptive="false" timeDependent="false">
+	<outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+	<itemBody>
+		<fact>
+			<prompt>Deutschland gilt international als das Land mit der zweithoechsten Zahl von Einwanderern nach den Vereinigten Staaten (Stand 2015). Seine Bevoelkerung ist die zweitaelteste und hat mit 1,47 Kindern pro Frau eine der niedrigsten Geburtenraten der Welt.</prompt>
+		</fact>
+	</itemBody>
+</knowledgeItem>

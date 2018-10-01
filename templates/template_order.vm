@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p2  http://www.imsglobal.org/xsd/qti/qtiv2p2/imsqti_v2p2.xsd"
+	identifier="ITM_${id}" title="${title}" adaptive="false" timeDependent="false">
+	<responseDeclaration identifier="RESPONSE" cardinality="ordered" baseType="identifier">
+		<correctResponse>
+			#set ($i = 1)
+			#foreach ($response in $content.responses)
+				#foreach ($r in $content.responses)
+					#if ( $r.position == "$i" )
+						<value>${r.id}</value>
+					#end
+				#end
+				#set ($i = $i+1)
+			#end
+		</correctResponse>
+	</responseDeclaration>
+	<outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+	<itemBody>
+		<orderInteraction responseIdentifier="RESPONSE" shuffle="true">
+			<prompt>$content.question</prompt>
+			#foreach ($response in $content.responses)
+			<simpleChoice identifier="${response.id}">${response.response}</simpleChoice>
+			#end
+		</orderInteraction>
+	</itemBody>
+	<responseProcessing
+		template="http://www.imsglobal.org/question/qti_v2p2/rptemplates/match_correct"/>
+</assessmentItem>

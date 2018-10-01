@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knowledgeItem identifier="ITM_LA_0013" title="LA_0013" adaptive="false" timeDependent="false">
+	<outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+	<itemBody>
+		<fact>
+			<prompt>Rund die Haelfte der Staatsflaeche wird als Dauergruenland sowie zum Anbau von Nutzpflanzen benutzt. Im Jahr 2009 wurden in Deutschland vor allem Weizen, Mais und Raps angebaut. Im Vergleich dazu spielen Obstanlagen, Baumschulen und Weihnachtsbaumkulturen hinsichtlich des Flaechenverbrauchs keine grosse Rolle. Zunehmend spielt die Landwirtschaft auch eine Rolle in der Energieerzeugung, vor allem durch den Anbau von Energiepflanzen und die Nutzung von Biogas sowie von Photovoltaik und als Verpaechter von Flaechen fuer Windenergie. Inzwischen gelten Landwirte als unverzichtbare Treiber der Energiewende.</prompt>
+		</fact>
+	</itemBody>
+</knowledgeItem>

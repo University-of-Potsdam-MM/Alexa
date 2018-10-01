@@ -1,0 +1,5890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" 
+	xmlns:imsld="http://www.imsglobal.org/xsd/imsld_v1p0" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsld_v1p0 http://www.imsglobal.org/xsd/IMS_LD_Level_B.xsd" 
+	identifier="MF_0001">
+	<organizations>
+    <imsld:learning-design identifier="LD_0001" level="B" sequence-used="false" uri="http://www.imsglobal.org/xsd/imsld_v1p0">
+      <imsld:title>Deutschland</imsld:title>
+	  
+	  
+      <imsld:learning-objectives>
+	  
+		<imsld:item>
+			<imsld:title>Basiswissen Deutschland</imsld:title>
+		</imsld:item>
+	  
+		<imsld:item>
+			<imsld:title>Fakten Deutschland</imsld:title>
+		</imsld:item>
+	        </imsld:learning-objectives>
+	  
+	  
+      <imsld:prerequisites>
+	  
+		<imsld:item>
+			<imsld:title>none</imsld:title>
+		</imsld:item>
+	  
+		<imsld:item>
+			<imsld:title>none</imsld:title>
+		</imsld:item>
+	        </imsld:prerequisites>
+	  
+	  
+      <imsld:components>
+        <imsld:roles>
+          <imsld:learner identifier="R_student" create-new="allowed" match-persons="not-exclusively" min-persons="1" max-persons="1">
+            <imsld:title>Student</imsld:title>
+          </imsld:learner>
+        </imsld:roles>
+		
+		
+		<imsld:properties>
+			<imsld:locpers-property identifier="P_current_activity">
+				<imsld:datatype datatype="string" />
+				<imsld:initial-value>x-none</imsld:initial-value>
+			</imsld:locpers-property>
+			
+			<imsld:locpers-property identifier="P_succeed">
+				<imsld:datatype datatype="boolean" />
+				<imsld:initial-value>x-none</imsld:initial-value>
+			</imsld:locpers-property>
+
+			<imsld:locpers-property identifier="P_rec_difficulty">
+				<imsld:datatype datatype="integer" />
+				<imsld:initial-value>x-none</imsld:initial-value>
+				<imsld:restriction restriction-type="minInclusive">1</imsld:restriction>
+				<imsld:restriction restriction-type="maxInclusive">3</imsld:restriction>
+			</imsld:locpers-property>
+
+			<imsld:locpers-property identifier="P_rec_interaction">
+				<imsld:datatype datatype="string" />
+				<imsld:initial-value>x-none</imsld:initial-value>
+				<imsld:restriction restriction-type="enumeration">sc</imsld:restriction>
+				<imsld:restriction restriction-type="enumeration">mc</imsld:restriction>
+				<imsld:restriction restriction-type="enumeration">txt</imsld:restriction>
+				<imsld:restriction restriction-type="enumeration">order</imsld:restriction>
+				<imsld:restriction restriction-type="enumeration">asso</imsld:restriction>
+				<imsld:restriction restriction-type="enumeration">fact</imsld:restriction>
+			</imsld:locpers-property>
+			
+			<imsld:locpers-property identifier="P_adaptive">
+				<imsld:datatype datatype="boolean" />
+				<imsld:initial-value>x-none</imsld:initial-value>
+			</imsld:locpers-property>
+		</imsld:properties>
+		
+		
+        <imsld:activities>
+		
+          <imsld:learning-activity identifier="LA_0001" isvisible="false">
+            <imsld:title>LA_0001</imsld:title>
+            <imsld:learning-objectives>
+          	
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	        
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	                    </imsld:learning-objectives>
+            <imsld:prerequisites>
+         	
+			  <imsld:item identifier="LAPR_LA_0001_none" identifierref="none" isvisible="true" />
+	                    </imsld:prerequisites>
+            <imsld:environment-ref ref="E_LA_0001" />
+            <imsld:activity-description>
+				<imsld:item identifier="AD_LA_0001">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+            </imsld:activity-description>
+            <imsld:on-completion>
+              <imsld:feedback-description>
+			    <imsld:item identifier="FB_POS_LA_0001">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+			    <imsld:item identifier="FB_NEG_LA_0001">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+              </imsld:feedback-description>
+            </imsld:on-completion>
+		  </imsld:learning-activity>
+		
+          <imsld:learning-activity identifier="LA_0002" isvisible="false">
+            <imsld:title>LA_0002</imsld:title>
+            <imsld:learning-objectives>
+          	
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	        
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	                    </imsld:learning-objectives>
+            <imsld:prerequisites>
+         	
+			  <imsld:item identifier="LAPR_LA_0002_none" identifierref="none" isvisible="true" />
+	                    </imsld:prerequisites>
+            <imsld:environment-ref ref="E_LA_0002" />
+            <imsld:activity-description>
+				<imsld:item identifier="AD_LA_0002">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+            </imsld:activity-description>
+            <imsld:on-completion>
+              <imsld:feedback-description>
+			    <imsld:item identifier="FB_POS_LA_0002">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+			    <imsld:item identifier="FB_NEG_LA_0002">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+              </imsld:feedback-description>
+            </imsld:on-completion>
+		  </imsld:learning-activity>
+		
+          <imsld:learning-activity identifier="LA_0003" isvisible="false">
+            <imsld:title>LA_0003</imsld:title>
+            <imsld:learning-objectives>
+          	
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	        
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	                    </imsld:learning-objectives>
+            <imsld:prerequisites>
+         	
+			  <imsld:item identifier="LAPR_LA_0003_none" identifierref="none" isvisible="true" />
+	                    </imsld:prerequisites>
+            <imsld:environment-ref ref="E_LA_0003" />
+            <imsld:activity-description>
+				<imsld:item identifier="AD_LA_0003">
+			      <imsld:title>Vor der Wiedervereinigung hatte Deutschland bereits 11 Bundeslaender.</imsld:title>
+		        </imsld:item>
+            </imsld:activity-description>
+            <imsld:on-completion>
+              <imsld:feedback-description>
+			    <imsld:item identifier="FB_POS_LA_0003">
+			      <imsld:title>Bravo, 16 Bundeslaender ist richtig. </imsld:title>
+		        </imsld:item>
+			    <imsld:item identifier="FB_NEG_LA_0003">
+			      <imsld:title>Schade, das ist leider falsch. Deutschland hat 16 Bundeslaender.</imsld:title>
+		        </imsld:item>
+              </imsld:feedback-description>
+            </imsld:on-completion>
+		  </imsld:learning-activity>
+		
+          <imsld:learning-activity identifier="LA_0004" isvisible="false">
+            <imsld:title>LA_0004</imsld:title>
+            <imsld:learning-objectives>
+          	
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	        
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	                    </imsld:learning-objectives>
+            <imsld:prerequisites>
+         	
+			  <imsld:item identifier="LAPR_LA_0004_none" identifierref="none" isvisible="true" />
+	                    </imsld:prerequisites>
+            <imsld:environment-ref ref="E_LA_0004" />
+            <imsld:activity-description>
+				<imsld:item identifier="AD_LA_0004">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+            </imsld:activity-description>
+            <imsld:on-completion>
+              <imsld:feedback-description>
+			    <imsld:item identifier="FB_POS_LA_0004">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+			    <imsld:item identifier="FB_NEG_LA_0004">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+              </imsld:feedback-description>
+            </imsld:on-completion>
+		  </imsld:learning-activity>
+		
+          <imsld:learning-activity identifier="LA_0005" isvisible="false">
+            <imsld:title>LA_0005</imsld:title>
+            <imsld:learning-objectives>
+          	
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	        
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	                    </imsld:learning-objectives>
+            <imsld:prerequisites>
+         	
+			  <imsld:item identifier="LAPR_LA_0005_none" identifierref="none" isvisible="true" />
+	                    </imsld:prerequisites>
+            <imsld:environment-ref ref="E_LA_0005" />
+            <imsld:activity-description>
+				<imsld:item identifier="AD_LA_0005">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+            </imsld:activity-description>
+            <imsld:on-completion>
+              <imsld:feedback-description>
+			    <imsld:item identifier="FB_POS_LA_0005">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+			    <imsld:item identifier="FB_NEG_LA_0005">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+              </imsld:feedback-description>
+            </imsld:on-completion>
+		  </imsld:learning-activity>
+		
+          <imsld:learning-activity identifier="LA_0006" isvisible="false">
+            <imsld:title>LA_0006</imsld:title>
+            <imsld:learning-objectives>
+          	
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	        
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	                    </imsld:learning-objectives>
+            <imsld:prerequisites>
+         	
+			  <imsld:item identifier="LAPR_LA_0006_none" identifierref="none" isvisible="true" />
+	                    </imsld:prerequisites>
+            <imsld:environment-ref ref="E_LA_0006" />
+            <imsld:activity-description>
+				<imsld:item identifier="AD_LA_0006">
+			      <imsld:title>Denke an die Hauptstadt oder eine grosse Stadt im Norden Deutschlands.</imsld:title>
+		        </imsld:item>
+            </imsld:activity-description>
+            <imsld:on-completion>
+              <imsld:feedback-description>
+			    <imsld:item identifier="FB_POS_LA_0006">
+			      <imsld:title>Das ist richtig. Du scheinst dich gut in Deutschland auszukennen.</imsld:title>
+		        </imsld:item>
+			    <imsld:item identifier="FB_NEG_LA_0006">
+			      <imsld:title>Schade, das ist leider falsch. Metropolen waeren zum Beispiel Berlin, Hamburg und Muenchen.</imsld:title>
+		        </imsld:item>
+              </imsld:feedback-description>
+            </imsld:on-completion>
+		  </imsld:learning-activity>
+		
+          <imsld:learning-activity identifier="LA_0007" isvisible="false">
+            <imsld:title>LA_0007</imsld:title>
+            <imsld:learning-objectives>
+          	
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	        
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	                    </imsld:learning-objectives>
+            <imsld:prerequisites>
+         	
+			  <imsld:item identifier="LAPR_LA_0007_none" identifierref="none" isvisible="true" />
+	                    </imsld:prerequisites>
+            <imsld:environment-ref ref="E_LA_0007" />
+            <imsld:activity-description>
+				<imsld:item identifier="AD_LA_0007">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+            </imsld:activity-description>
+            <imsld:on-completion>
+              <imsld:feedback-description>
+			    <imsld:item identifier="FB_POS_LA_0007">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+			    <imsld:item identifier="FB_NEG_LA_0007">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+              </imsld:feedback-description>
+            </imsld:on-completion>
+		  </imsld:learning-activity>
+		
+          <imsld:learning-activity identifier="LA_0008" isvisible="false">
+            <imsld:title>LA_0008</imsld:title>
+            <imsld:learning-objectives>
+          	
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	        
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	                    </imsld:learning-objectives>
+            <imsld:prerequisites>
+         	
+			  <imsld:item identifier="LAPR_LA_0008_none" identifierref="none" isvisible="true" />
+	                    </imsld:prerequisites>
+            <imsld:environment-ref ref="E_LA_0008" />
+            <imsld:activity-description>
+				<imsld:item identifier="AD_LA_0008">
+			      <imsld:title>Die beiden noerdlichsten Staedte sind es nicht.</imsld:title>
+		        </imsld:item>
+            </imsld:activity-description>
+            <imsld:on-completion>
+              <imsld:feedback-description>
+			    <imsld:item identifier="FB_POS_LA_0008">
+			      <imsld:title>Super! Koeln und Frankfurt zaehlen zu den Metropolen.</imsld:title>
+		        </imsld:item>
+			    <imsld:item identifier="FB_NEG_LA_0008">
+			      <imsld:title>Schade! Koeln und Frankfurt zaehlen zu den Metropolen.</imsld:title>
+		        </imsld:item>
+              </imsld:feedback-description>
+            </imsld:on-completion>
+		  </imsld:learning-activity>
+		
+          <imsld:learning-activity identifier="LA_0009" isvisible="false">
+            <imsld:title>LA_0009</imsld:title>
+            <imsld:learning-objectives>
+          	
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	        
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	                    </imsld:learning-objectives>
+            <imsld:prerequisites>
+         	
+			  <imsld:item identifier="LAPR_LA_0009_none" identifierref="none" isvisible="true" />
+	                    </imsld:prerequisites>
+            <imsld:environment-ref ref="E_LA_0009" />
+            <imsld:activity-description>
+				<imsld:item identifier="AD_LA_0009">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+            </imsld:activity-description>
+            <imsld:on-completion>
+              <imsld:feedback-description>
+			    <imsld:item identifier="FB_POS_LA_0009">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+			    <imsld:item identifier="FB_NEG_LA_0009">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+              </imsld:feedback-description>
+            </imsld:on-completion>
+		  </imsld:learning-activity>
+		
+          <imsld:learning-activity identifier="LA_0010" isvisible="false">
+            <imsld:title>LA_0010</imsld:title>
+            <imsld:learning-objectives>
+          	
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	        
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	                    </imsld:learning-objectives>
+            <imsld:prerequisites>
+         	
+			  <imsld:item identifier="LAPR_LA_0010_none" identifierref="none" isvisible="true" />
+	                    </imsld:prerequisites>
+            <imsld:environment-ref ref="E_LA_0010" />
+            <imsld:activity-description>
+				<imsld:item identifier="AD_LA_0010">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+            </imsld:activity-description>
+            <imsld:on-completion>
+              <imsld:feedback-description>
+			    <imsld:item identifier="FB_POS_LA_0010">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+			    <imsld:item identifier="FB_NEG_LA_0010">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+              </imsld:feedback-description>
+            </imsld:on-completion>
+		  </imsld:learning-activity>
+		
+          <imsld:learning-activity identifier="LA_0011" isvisible="false">
+            <imsld:title>LA_0011</imsld:title>
+            <imsld:learning-objectives>
+          	
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	        
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	                    </imsld:learning-objectives>
+            <imsld:prerequisites>
+         	
+			  <imsld:item identifier="LAPR_LA_0011_none" identifierref="none" isvisible="true" />
+	                    </imsld:prerequisites>
+            <imsld:environment-ref ref="E_LA_0011" />
+            <imsld:activity-description>
+				<imsld:item identifier="AD_LA_0011">
+			      <imsld:title>Aus der Vogelperspektive ist Deutschland gruener als man denken mag.</imsld:title>
+		        </imsld:item>
+            </imsld:activity-description>
+            <imsld:on-completion>
+              <imsld:feedback-description>
+			    <imsld:item identifier="FB_POS_LA_0011">
+			      <imsld:title>Gut aufgepasst! Mach weiter so.</imsld:title>
+		        </imsld:item>
+			    <imsld:item identifier="FB_NEG_LA_0011">
+			      <imsld:title>Schade, das ist stimmt leider nicht ganz. Auf Landwirtschaft folgen Wald, Siedlungen und zuletzt das Wasser. Das war aber auch nicht leicht.</imsld:title>
+		        </imsld:item>
+              </imsld:feedback-description>
+            </imsld:on-completion>
+		  </imsld:learning-activity>
+		
+          <imsld:learning-activity identifier="LA_0012" isvisible="false">
+            <imsld:title>LA_0012</imsld:title>
+            <imsld:learning-objectives>
+          	
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	        
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	                    </imsld:learning-objectives>
+            <imsld:prerequisites>
+         	
+			  <imsld:item identifier="LAPR_LA_0012_none" identifierref="none" isvisible="true" />
+	                    </imsld:prerequisites>
+            <imsld:environment-ref ref="E_LA_0012" />
+            <imsld:activity-description>
+				<imsld:item identifier="AD_LA_0012">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+            </imsld:activity-description>
+            <imsld:on-completion>
+              <imsld:feedback-description>
+			    <imsld:item identifier="FB_POS_LA_0012">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+			    <imsld:item identifier="FB_NEG_LA_0012">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+              </imsld:feedback-description>
+            </imsld:on-completion>
+		  </imsld:learning-activity>
+		
+          <imsld:learning-activity identifier="LA_0013" isvisible="false">
+            <imsld:title>LA_0013</imsld:title>
+            <imsld:learning-objectives>
+          	
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	        
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	                    </imsld:learning-objectives>
+            <imsld:prerequisites>
+         	
+			  <imsld:item identifier="LAPR_LA_0013_none" identifierref="none" isvisible="true" />
+	                    </imsld:prerequisites>
+            <imsld:environment-ref ref="E_LA_0013" />
+            <imsld:activity-description>
+				<imsld:item identifier="AD_LA_0013">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+            </imsld:activity-description>
+            <imsld:on-completion>
+              <imsld:feedback-description>
+			    <imsld:item identifier="FB_POS_LA_0013">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+			    <imsld:item identifier="FB_NEG_LA_0013">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+              </imsld:feedback-description>
+            </imsld:on-completion>
+		  </imsld:learning-activity>
+		
+          <imsld:learning-activity identifier="LA_0014" isvisible="false">
+            <imsld:title>LA_0014</imsld:title>
+            <imsld:learning-objectives>
+          	
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	        
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	                    </imsld:learning-objectives>
+            <imsld:prerequisites>
+         	
+			  <imsld:item identifier="LAPR_LA_0014_none" identifierref="none" isvisible="true" />
+	                    </imsld:prerequisites>
+            <imsld:environment-ref ref="E_LA_0014" />
+            <imsld:activity-description>
+				<imsld:item identifier="AD_LA_0014">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+            </imsld:activity-description>
+            <imsld:on-completion>
+              <imsld:feedback-description>
+			    <imsld:item identifier="FB_POS_LA_0014">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+			    <imsld:item identifier="FB_NEG_LA_0014">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+              </imsld:feedback-description>
+            </imsld:on-completion>
+		  </imsld:learning-activity>
+		
+          <imsld:learning-activity identifier="LA_0015" isvisible="false">
+            <imsld:title>LA_0015</imsld:title>
+            <imsld:learning-objectives>
+          	
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	        
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	                    </imsld:learning-objectives>
+            <imsld:prerequisites>
+         	
+			  <imsld:item identifier="LAPR_LA_0015_none" identifierref="none" isvisible="true" />
+	                    </imsld:prerequisites>
+            <imsld:environment-ref ref="E_LA_0015" />
+            <imsld:activity-description>
+				<imsld:item identifier="AD_LA_0015">
+			      <imsld:title>Deutschland isst viel Teigwaren und braucht daher viel Mehl.</imsld:title>
+		        </imsld:item>
+            </imsld:activity-description>
+            <imsld:on-completion>
+              <imsld:feedback-description>
+			    <imsld:item identifier="FB_POS_LA_0015">
+			      <imsld:title>Genau! Weizen ist Spitzenreiter unter den angebauten Getreiden. Weiter so!</imsld:title>
+		        </imsld:item>
+			    <imsld:item identifier="FB_NEG_LA_0015">
+			      <imsld:title>Schade, die Antwort ist leider nicht richtig. Weizen ist die korrekte Antwort. </imsld:title>
+		        </imsld:item>
+              </imsld:feedback-description>
+            </imsld:on-completion>
+		  </imsld:learning-activity>
+		
+          <imsld:learning-activity identifier="LA_0016" isvisible="false">
+            <imsld:title>LA_0016</imsld:title>
+            <imsld:learning-objectives>
+          	
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	        
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	                    </imsld:learning-objectives>
+            <imsld:prerequisites>
+         	
+			  <imsld:item identifier="LAPR_LA_0016_none" identifierref="none" isvisible="true" />
+	                    </imsld:prerequisites>
+            <imsld:environment-ref ref="E_LA_0016" />
+            <imsld:activity-description>
+				<imsld:item identifier="AD_LA_0016">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+            </imsld:activity-description>
+            <imsld:on-completion>
+              <imsld:feedback-description>
+			    <imsld:item identifier="FB_POS_LA_0016">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+			    <imsld:item identifier="FB_NEG_LA_0016">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+              </imsld:feedback-description>
+            </imsld:on-completion>
+		  </imsld:learning-activity>
+		
+          <imsld:learning-activity identifier="LA_0017" isvisible="false">
+            <imsld:title>LA_0017</imsld:title>
+            <imsld:learning-objectives>
+          	
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	        
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	                    </imsld:learning-objectives>
+            <imsld:prerequisites>
+         	
+			  <imsld:item identifier="LAPR_LA_0017_none" identifierref="none" isvisible="true" />
+	                    </imsld:prerequisites>
+            <imsld:environment-ref ref="E_LA_0017" />
+            <imsld:activity-description>
+				<imsld:item identifier="AD_LA_0017">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+            </imsld:activity-description>
+            <imsld:on-completion>
+              <imsld:feedback-description>
+			    <imsld:item identifier="FB_POS_LA_0017">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+			    <imsld:item identifier="FB_NEG_LA_0017">
+			      <imsld:title></imsld:title>
+		        </imsld:item>
+              </imsld:feedback-description>
+            </imsld:on-completion>
+		  </imsld:learning-activity>
+		
+          <imsld:learning-activity identifier="LA_0018" isvisible="false">
+            <imsld:title>LA_0018</imsld:title>
+            <imsld:learning-objectives>
+          	
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	        
+			  <imsld:item>
+			    <imsld:title>none</imsld:title>
+		      </imsld:item>
+	                    </imsld:learning-objectives>
+            <imsld:prerequisites>
+         	
+			  <imsld:item identifier="LAPR_LA_0018_none" identifierref="none" isvisible="true" />
+	                    </imsld:prerequisites>
+            <imsld:environment-ref ref="E_LA_0018" />
+            <imsld:activity-description>
+				<imsld:item identifier="AD_LA_0018">
+			      <imsld:title>Kiefern werden von einigen auch als Weihnachtsbaum verwendet.</imsld:title>
+		        </imsld:item>
+            </imsld:activity-description>
+            <imsld:on-completion>
+              <imsld:feedback-description>
+			    <imsld:item identifier="FB_POS_LA_0018">
+			      <imsld:title>Super! Du hast ein gutes Basiswissen ueber Deutschland und seine Natur.</imsld:title>
+		        </imsld:item>
+			    <imsld:item identifier="FB_NEG_LA_0018">
+			      <imsld:title>Das stimmt leider nicht, die Waldkiefer ist ein Nadelbaum und die Rotbuche ein Laubbaum. Merk es dir gut.</imsld:title>
+		        </imsld:item>
+              </imsld:feedback-description>
+            </imsld:on-completion>
+		  </imsld:learning-activity>
+		          <imsld:activity-structure identifier="AS_main" structure-type="sequence">
+            <imsld:title>Main Structure</imsld:title>
+			
+            <imsld:learning-activity-ref ref="LA_0001" />
+			
+            <imsld:learning-activity-ref ref="LA_0002" />
+			
+            <imsld:learning-activity-ref ref="LA_0003" />
+			
+            <imsld:learning-activity-ref ref="LA_0004" />
+			
+            <imsld:learning-activity-ref ref="LA_0006" />
+			
+            <imsld:learning-activity-ref ref="LA_0009" />
+			
+            <imsld:learning-activity-ref ref="LA_0010" />
+			
+            <imsld:learning-activity-ref ref="LA_0011" />
+			
+            <imsld:learning-activity-ref ref="LA_0012" />
+			
+            <imsld:learning-activity-ref ref="LA_0014" />
+			
+            <imsld:learning-activity-ref ref="LA_0018" />
+			          </imsld:activity-structure>
+        </imsld:activities>
+		
+		
+        <imsld:environments>
+		
+          <imsld:environment identifier="E_LA_0001">
+            <imsld:learning-object identifier="LO_LA_0001" type="knowledge-object">
+				<imsld:item identifier="ITM_LA_0001" identifierref="RES_LA_0001" isvisible="true" />
+				<imsld:metadata>
+					<imsld:schema>IMS Content</imsld:schema>
+					<imsld:schemaversion>1.2.4</imsld:schemaversion>
+					<lom xmlns="http://www.imsglobal.org/xsd/imsmd_v1p2" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_v1p2 http://www.imsglobal.org/xsd/imsmd_v1p2p4.xsd">
+						<general>
+							<identifier>MD_LA_0001</identifier>
+							<title>
+								<langstring xml:lang="de">LA_0001</langstring>
+							</title>
+							<language>de</language>
+							<description>
+								<langstring xml:lang="de"></langstring>
+							</description>
+							
+							<keyword>
+								<langstring xml:lang="de">interaction:fact</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">topic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">subtopic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">difficulty:easy</langstring>
+							</keyword>
+														<coverage>
+								<langstring xml:lang="de">general</langstring>
+							</coverage>
+							<structure>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">atomic</langstring>
+								</value>
+							</structure>
+							<aggregationlevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">1</langstring>
+								</value>
+							</aggregationlevel>
+						</general>
+						
+						<lifecycle>
+							<version>
+								<langstring xml:lang="de">1.0</langstring>
+							</version>
+							<status>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">draft</langstring>
+								</value>
+							</status>
+							<contribute>
+								<role>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de">author</langstring>
+									</value>
+								</role>
+								<centity>
+									<vcard>
+										BEGIN:VCARD
+										VERSION:3.0
+										FN: D.W.
+										END:VCARD
+									</vcard>
+								</centity>
+								<date>
+									<datetime>17.10.2017</datetime>
+								</date>
+							</contribute>
+						</lifecycle>
+						
+						<metametadata>
+							<metadatascheme>LOMv1.0</metadatascheme>
+							<language>de</language>
+						</metametadata>
+						
+						<technical>
+							<format>text/xml</format>
+							<size>0</size>
+							<location>./qti_LA_0001.xml</location>
+							<requirement>
+								<type>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</type>
+								<name>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</name>
+							</requirement>
+						</technical>
+						
+						<educational>
+							<interactivitytype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">mixed</langstring>
+								</value>
+							</interactivitytype>
+							<learningresourcetype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">exercise</langstring>
+								</value>
+							</learningresourcetype>
+							<interactivitylevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</interactivitylevel>
+							<semanticdensity>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</semanticdensity>
+							<intendedenduserrole>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">learner</langstring>
+								</value>
+							</intendedenduserrole>
+							<context>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">higher education</langstring>
+								</value>
+							</context>
+							<typicalagerange>
+								<langstring xml:lang="de">12-</langstring>
+							</typicalagerange>
+							<difficulty>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">easy</langstring>
+								</value>
+							</difficulty>
+							<typicallearningtime>
+								<description>
+									<langstring xml:lang="de">undefined</langstring>
+								</description>
+							</typicallearningtime>
+							<description>
+								<langstring xml:lang="de"></langstring>
+							</description>
+							<language>de</language>
+						</educational>
+						
+						<rights>
+							<cost>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</cost>
+							<copyrightandotherrestrictions>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</copyrightandotherrestrictions>
+						</rights>
+						
+						<relation>
+							<kind>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</kind>
+						</relation>
+						
+						<classification>
+							<purpose>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</purpose>
+						</classification>
+					</lom>
+				</imsld:metadata>
+            </imsld:learning-object>
+		  </imsld:environment>
+		
+          <imsld:environment identifier="E_LA_0002">
+            <imsld:learning-object identifier="LO_LA_0002" type="knowledge-object">
+				<imsld:item identifier="ITM_LA_0002" identifierref="RES_LA_0002" isvisible="true" />
+				<imsld:metadata>
+					<imsld:schema>IMS Content</imsld:schema>
+					<imsld:schemaversion>1.2.4</imsld:schemaversion>
+					<lom xmlns="http://www.imsglobal.org/xsd/imsmd_v1p2" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_v1p2 http://www.imsglobal.org/xsd/imsmd_v1p2p4.xsd">
+						<general>
+							<identifier>MD_LA_0002</identifier>
+							<title>
+								<langstring xml:lang="de">LA_0002</langstring>
+							</title>
+							<language>de</language>
+							<description>
+								<langstring xml:lang="de"></langstring>
+							</description>
+							
+							<keyword>
+								<langstring xml:lang="de">interaction:fact</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">topic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">subtopic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">difficulty:easy</langstring>
+							</keyword>
+														<coverage>
+								<langstring xml:lang="de">general</langstring>
+							</coverage>
+							<structure>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">atomic</langstring>
+								</value>
+							</structure>
+							<aggregationlevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">1</langstring>
+								</value>
+							</aggregationlevel>
+						</general>
+						
+						<lifecycle>
+							<version>
+								<langstring xml:lang="de">1.0</langstring>
+							</version>
+							<status>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">draft</langstring>
+								</value>
+							</status>
+							<contribute>
+								<role>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de">author</langstring>
+									</value>
+								</role>
+								<centity>
+									<vcard>
+										BEGIN:VCARD
+										VERSION:3.0
+										FN: D.W.
+										END:VCARD
+									</vcard>
+								</centity>
+								<date>
+									<datetime>17.10.2017</datetime>
+								</date>
+							</contribute>
+						</lifecycle>
+						
+						<metametadata>
+							<metadatascheme>LOMv1.0</metadatascheme>
+							<language>de</language>
+						</metametadata>
+						
+						<technical>
+							<format>text/xml</format>
+							<size>0</size>
+							<location>./qti_LA_0002.xml</location>
+							<requirement>
+								<type>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</type>
+								<name>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</name>
+							</requirement>
+						</technical>
+						
+						<educational>
+							<interactivitytype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">mixed</langstring>
+								</value>
+							</interactivitytype>
+							<learningresourcetype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">exercise</langstring>
+								</value>
+							</learningresourcetype>
+							<interactivitylevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</interactivitylevel>
+							<semanticdensity>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</semanticdensity>
+							<intendedenduserrole>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">learner</langstring>
+								</value>
+							</intendedenduserrole>
+							<context>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">higher education</langstring>
+								</value>
+							</context>
+							<typicalagerange>
+								<langstring xml:lang="de">12-</langstring>
+							</typicalagerange>
+							<difficulty>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">easy</langstring>
+								</value>
+							</difficulty>
+							<typicallearningtime>
+								<description>
+									<langstring xml:lang="de">undefined</langstring>
+								</description>
+							</typicallearningtime>
+							<description>
+								<langstring xml:lang="de"></langstring>
+							</description>
+							<language>de</language>
+						</educational>
+						
+						<rights>
+							<cost>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</cost>
+							<copyrightandotherrestrictions>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</copyrightandotherrestrictions>
+						</rights>
+						
+						<relation>
+							<kind>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</kind>
+						</relation>
+						
+						<classification>
+							<purpose>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</purpose>
+						</classification>
+					</lom>
+				</imsld:metadata>
+            </imsld:learning-object>
+		  </imsld:environment>
+		
+          <imsld:environment identifier="E_LA_0003">
+            <imsld:learning-object identifier="LO_LA_0003" type="test-object">
+				<imsld:item identifier="ITM_LA_0003" identifierref="RES_LA_0003" isvisible="true" />
+				<imsld:metadata>
+					<imsld:schema>IMS Content</imsld:schema>
+					<imsld:schemaversion>1.2.4</imsld:schemaversion>
+					<lom xmlns="http://www.imsglobal.org/xsd/imsmd_v1p2" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_v1p2 http://www.imsglobal.org/xsd/imsmd_v1p2p4.xsd">
+						<general>
+							<identifier>MD_LA_0003</identifier>
+							<title>
+								<langstring xml:lang="de">LA_0003</langstring>
+							</title>
+							<language>de</language>
+							<description>
+								<langstring xml:lang="de">Vor der Wiedervereinigung hatte Deutschland bereits 11 Bundeslaender.</langstring>
+							</description>
+							
+							<keyword>
+								<langstring xml:lang="de">interaction:sc</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">topic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">subtopic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">difficulty:easy</langstring>
+							</keyword>
+														<coverage>
+								<langstring xml:lang="de">general</langstring>
+							</coverage>
+							<structure>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">atomic</langstring>
+								</value>
+							</structure>
+							<aggregationlevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">1</langstring>
+								</value>
+							</aggregationlevel>
+						</general>
+						
+						<lifecycle>
+							<version>
+								<langstring xml:lang="de">1.0</langstring>
+							</version>
+							<status>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">draft</langstring>
+								</value>
+							</status>
+							<contribute>
+								<role>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de">author</langstring>
+									</value>
+								</role>
+								<centity>
+									<vcard>
+										BEGIN:VCARD
+										VERSION:3.0
+										FN: D.W.
+										END:VCARD
+									</vcard>
+								</centity>
+								<date>
+									<datetime>17.10.2017</datetime>
+								</date>
+							</contribute>
+						</lifecycle>
+						
+						<metametadata>
+							<metadatascheme>LOMv1.0</metadatascheme>
+							<language>de</language>
+						</metametadata>
+						
+						<technical>
+							<format>text/xml</format>
+							<size>0</size>
+							<location>./qti_LA_0003.xml</location>
+							<requirement>
+								<type>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</type>
+								<name>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</name>
+							</requirement>
+						</technical>
+						
+						<educational>
+							<interactivitytype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">mixed</langstring>
+								</value>
+							</interactivitytype>
+							<learningresourcetype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">exercise</langstring>
+								</value>
+							</learningresourcetype>
+							<interactivitylevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</interactivitylevel>
+							<semanticdensity>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</semanticdensity>
+							<intendedenduserrole>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">learner</langstring>
+								</value>
+							</intendedenduserrole>
+							<context>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">higher education</langstring>
+								</value>
+							</context>
+							<typicalagerange>
+								<langstring xml:lang="de">12-</langstring>
+							</typicalagerange>
+							<difficulty>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">easy</langstring>
+								</value>
+							</difficulty>
+							<typicallearningtime>
+								<description>
+									<langstring xml:lang="de">undefined</langstring>
+								</description>
+							</typicallearningtime>
+							<description>
+								<langstring xml:lang="de">Vor der Wiedervereinigung hatte Deutschland bereits 11 Bundeslaender.</langstring>
+							</description>
+							<language>de</language>
+						</educational>
+						
+						<rights>
+							<cost>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</cost>
+							<copyrightandotherrestrictions>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</copyrightandotherrestrictions>
+						</rights>
+						
+						<relation>
+							<kind>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</kind>
+						</relation>
+						
+						<classification>
+							<purpose>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</purpose>
+						</classification>
+					</lom>
+				</imsld:metadata>
+            </imsld:learning-object>
+		  </imsld:environment>
+		
+          <imsld:environment identifier="E_LA_0004">
+            <imsld:learning-object identifier="LO_LA_0004" type="knowledge-object">
+				<imsld:item identifier="ITM_LA_0004" identifierref="RES_LA_0004" isvisible="true" />
+				<imsld:metadata>
+					<imsld:schema>IMS Content</imsld:schema>
+					<imsld:schemaversion>1.2.4</imsld:schemaversion>
+					<lom xmlns="http://www.imsglobal.org/xsd/imsmd_v1p2" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_v1p2 http://www.imsglobal.org/xsd/imsmd_v1p2p4.xsd">
+						<general>
+							<identifier>MD_LA_0004</identifier>
+							<title>
+								<langstring xml:lang="de">LA_0004</langstring>
+							</title>
+							<language>de</language>
+							<description>
+								<langstring xml:lang="de"></langstring>
+							</description>
+							
+							<keyword>
+								<langstring xml:lang="de">interaction:fact</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">topic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">subtopic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">difficulty:easy</langstring>
+							</keyword>
+														<coverage>
+								<langstring xml:lang="de">general</langstring>
+							</coverage>
+							<structure>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">atomic</langstring>
+								</value>
+							</structure>
+							<aggregationlevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">1</langstring>
+								</value>
+							</aggregationlevel>
+						</general>
+						
+						<lifecycle>
+							<version>
+								<langstring xml:lang="de">1.0</langstring>
+							</version>
+							<status>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">draft</langstring>
+								</value>
+							</status>
+							<contribute>
+								<role>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de">author</langstring>
+									</value>
+								</role>
+								<centity>
+									<vcard>
+										BEGIN:VCARD
+										VERSION:3.0
+										FN: D.W.
+										END:VCARD
+									</vcard>
+								</centity>
+								<date>
+									<datetime>17.10.2017</datetime>
+								</date>
+							</contribute>
+						</lifecycle>
+						
+						<metametadata>
+							<metadatascheme>LOMv1.0</metadatascheme>
+							<language>de</language>
+						</metametadata>
+						
+						<technical>
+							<format>text/xml</format>
+							<size>0</size>
+							<location>./qti_LA_0004.xml</location>
+							<requirement>
+								<type>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</type>
+								<name>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</name>
+							</requirement>
+						</technical>
+						
+						<educational>
+							<interactivitytype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">mixed</langstring>
+								</value>
+							</interactivitytype>
+							<learningresourcetype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">exercise</langstring>
+								</value>
+							</learningresourcetype>
+							<interactivitylevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</interactivitylevel>
+							<semanticdensity>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</semanticdensity>
+							<intendedenduserrole>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">learner</langstring>
+								</value>
+							</intendedenduserrole>
+							<context>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">higher education</langstring>
+								</value>
+							</context>
+							<typicalagerange>
+								<langstring xml:lang="de">12-</langstring>
+							</typicalagerange>
+							<difficulty>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">easy</langstring>
+								</value>
+							</difficulty>
+							<typicallearningtime>
+								<description>
+									<langstring xml:lang="de">undefined</langstring>
+								</description>
+							</typicallearningtime>
+							<description>
+								<langstring xml:lang="de"></langstring>
+							</description>
+							<language>de</language>
+						</educational>
+						
+						<rights>
+							<cost>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</cost>
+							<copyrightandotherrestrictions>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</copyrightandotherrestrictions>
+						</rights>
+						
+						<relation>
+							<kind>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</kind>
+						</relation>
+						
+						<classification>
+							<purpose>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</purpose>
+						</classification>
+					</lom>
+				</imsld:metadata>
+            </imsld:learning-object>
+		  </imsld:environment>
+		
+          <imsld:environment identifier="E_LA_0005">
+            <imsld:learning-object identifier="LO_LA_0005" type="knowledge-object">
+				<imsld:item identifier="ITM_LA_0005" identifierref="RES_LA_0005" isvisible="true" />
+				<imsld:metadata>
+					<imsld:schema>IMS Content</imsld:schema>
+					<imsld:schemaversion>1.2.4</imsld:schemaversion>
+					<lom xmlns="http://www.imsglobal.org/xsd/imsmd_v1p2" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_v1p2 http://www.imsglobal.org/xsd/imsmd_v1p2p4.xsd">
+						<general>
+							<identifier>MD_LA_0005</identifier>
+							<title>
+								<langstring xml:lang="de">LA_0005</langstring>
+							</title>
+							<language>de</language>
+							<description>
+								<langstring xml:lang="de"></langstring>
+							</description>
+							
+							<keyword>
+								<langstring xml:lang="de">interaction:fact</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">topic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">subtopic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">difficulty:easy</langstring>
+							</keyword>
+														<coverage>
+								<langstring xml:lang="de">general</langstring>
+							</coverage>
+							<structure>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">atomic</langstring>
+								</value>
+							</structure>
+							<aggregationlevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">1</langstring>
+								</value>
+							</aggregationlevel>
+						</general>
+						
+						<lifecycle>
+							<version>
+								<langstring xml:lang="de">1.0</langstring>
+							</version>
+							<status>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">draft</langstring>
+								</value>
+							</status>
+							<contribute>
+								<role>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de">author</langstring>
+									</value>
+								</role>
+								<centity>
+									<vcard>
+										BEGIN:VCARD
+										VERSION:3.0
+										FN: D.W.
+										END:VCARD
+									</vcard>
+								</centity>
+								<date>
+									<datetime>17.10.2017</datetime>
+								</date>
+							</contribute>
+						</lifecycle>
+						
+						<metametadata>
+							<metadatascheme>LOMv1.0</metadatascheme>
+							<language>de</language>
+						</metametadata>
+						
+						<technical>
+							<format>text/xml</format>
+							<size>0</size>
+							<location>./qti_LA_0005.xml</location>
+							<requirement>
+								<type>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</type>
+								<name>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</name>
+							</requirement>
+						</technical>
+						
+						<educational>
+							<interactivitytype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">mixed</langstring>
+								</value>
+							</interactivitytype>
+							<learningresourcetype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">exercise</langstring>
+								</value>
+							</learningresourcetype>
+							<interactivitylevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</interactivitylevel>
+							<semanticdensity>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</semanticdensity>
+							<intendedenduserrole>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">learner</langstring>
+								</value>
+							</intendedenduserrole>
+							<context>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">higher education</langstring>
+								</value>
+							</context>
+							<typicalagerange>
+								<langstring xml:lang="de">12-</langstring>
+							</typicalagerange>
+							<difficulty>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">easy</langstring>
+								</value>
+							</difficulty>
+							<typicallearningtime>
+								<description>
+									<langstring xml:lang="de">undefined</langstring>
+								</description>
+							</typicallearningtime>
+							<description>
+								<langstring xml:lang="de"></langstring>
+							</description>
+							<language>de</language>
+						</educational>
+						
+						<rights>
+							<cost>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</cost>
+							<copyrightandotherrestrictions>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</copyrightandotherrestrictions>
+						</rights>
+						
+						<relation>
+							<kind>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</kind>
+						</relation>
+						
+						<classification>
+							<purpose>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</purpose>
+						</classification>
+					</lom>
+				</imsld:metadata>
+            </imsld:learning-object>
+		  </imsld:environment>
+		
+          <imsld:environment identifier="E_LA_0006">
+            <imsld:learning-object identifier="LO_LA_0006" type="test-object">
+				<imsld:item identifier="ITM_LA_0006" identifierref="RES_LA_0006" isvisible="true" />
+				<imsld:metadata>
+					<imsld:schema>IMS Content</imsld:schema>
+					<imsld:schemaversion>1.2.4</imsld:schemaversion>
+					<lom xmlns="http://www.imsglobal.org/xsd/imsmd_v1p2" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_v1p2 http://www.imsglobal.org/xsd/imsmd_v1p2p4.xsd">
+						<general>
+							<identifier>MD_LA_0006</identifier>
+							<title>
+								<langstring xml:lang="de">LA_0006</langstring>
+							</title>
+							<language>de</language>
+							<description>
+								<langstring xml:lang="de">Denke an die Hauptstadt oder eine grosse Stadt im Norden Deutschlands.</langstring>
+							</description>
+							
+							<keyword>
+								<langstring xml:lang="de">interaction:txt</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">topic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">subtopic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">difficulty:easy</langstring>
+							</keyword>
+														<coverage>
+								<langstring xml:lang="de">general</langstring>
+							</coverage>
+							<structure>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">atomic</langstring>
+								</value>
+							</structure>
+							<aggregationlevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">1</langstring>
+								</value>
+							</aggregationlevel>
+						</general>
+						
+						<lifecycle>
+							<version>
+								<langstring xml:lang="de">1.0</langstring>
+							</version>
+							<status>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">draft</langstring>
+								</value>
+							</status>
+							<contribute>
+								<role>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de">author</langstring>
+									</value>
+								</role>
+								<centity>
+									<vcard>
+										BEGIN:VCARD
+										VERSION:3.0
+										FN: D.W.
+										END:VCARD
+									</vcard>
+								</centity>
+								<date>
+									<datetime>17.10.2017</datetime>
+								</date>
+							</contribute>
+						</lifecycle>
+						
+						<metametadata>
+							<metadatascheme>LOMv1.0</metadatascheme>
+							<language>de</language>
+						</metametadata>
+						
+						<technical>
+							<format>text/xml</format>
+							<size>0</size>
+							<location>./qti_LA_0006.xml</location>
+							<requirement>
+								<type>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</type>
+								<name>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</name>
+							</requirement>
+						</technical>
+						
+						<educational>
+							<interactivitytype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">mixed</langstring>
+								</value>
+							</interactivitytype>
+							<learningresourcetype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">exercise</langstring>
+								</value>
+							</learningresourcetype>
+							<interactivitylevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</interactivitylevel>
+							<semanticdensity>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</semanticdensity>
+							<intendedenduserrole>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">learner</langstring>
+								</value>
+							</intendedenduserrole>
+							<context>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">higher education</langstring>
+								</value>
+							</context>
+							<typicalagerange>
+								<langstring xml:lang="de">12-</langstring>
+							</typicalagerange>
+							<difficulty>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">easy</langstring>
+								</value>
+							</difficulty>
+							<typicallearningtime>
+								<description>
+									<langstring xml:lang="de">undefined</langstring>
+								</description>
+							</typicallearningtime>
+							<description>
+								<langstring xml:lang="de">Denke an die Hauptstadt oder eine grosse Stadt im Norden Deutschlands.</langstring>
+							</description>
+							<language>de</language>
+						</educational>
+						
+						<rights>
+							<cost>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</cost>
+							<copyrightandotherrestrictions>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</copyrightandotherrestrictions>
+						</rights>
+						
+						<relation>
+							<kind>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</kind>
+						</relation>
+						
+						<classification>
+							<purpose>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</purpose>
+						</classification>
+					</lom>
+				</imsld:metadata>
+            </imsld:learning-object>
+		  </imsld:environment>
+		
+          <imsld:environment identifier="E_LA_0007">
+            <imsld:learning-object identifier="LO_LA_0007" type="knowledge-object">
+				<imsld:item identifier="ITM_LA_0007" identifierref="RES_LA_0007" isvisible="true" />
+				<imsld:metadata>
+					<imsld:schema>IMS Content</imsld:schema>
+					<imsld:schemaversion>1.2.4</imsld:schemaversion>
+					<lom xmlns="http://www.imsglobal.org/xsd/imsmd_v1p2" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_v1p2 http://www.imsglobal.org/xsd/imsmd_v1p2p4.xsd">
+						<general>
+							<identifier>MD_LA_0007</identifier>
+							<title>
+								<langstring xml:lang="de">LA_0007</langstring>
+							</title>
+							<language>de</language>
+							<description>
+								<langstring xml:lang="de"></langstring>
+							</description>
+							
+							<keyword>
+								<langstring xml:lang="de">interaction:fact</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">topic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">subtopic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">difficulty:easy</langstring>
+							</keyword>
+														<coverage>
+								<langstring xml:lang="de">general</langstring>
+							</coverage>
+							<structure>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">atomic</langstring>
+								</value>
+							</structure>
+							<aggregationlevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">1</langstring>
+								</value>
+							</aggregationlevel>
+						</general>
+						
+						<lifecycle>
+							<version>
+								<langstring xml:lang="de">1.0</langstring>
+							</version>
+							<status>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">draft</langstring>
+								</value>
+							</status>
+							<contribute>
+								<role>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de">author</langstring>
+									</value>
+								</role>
+								<centity>
+									<vcard>
+										BEGIN:VCARD
+										VERSION:3.0
+										FN: D.W.
+										END:VCARD
+									</vcard>
+								</centity>
+								<date>
+									<datetime>17.10.2017</datetime>
+								</date>
+							</contribute>
+						</lifecycle>
+						
+						<metametadata>
+							<metadatascheme>LOMv1.0</metadatascheme>
+							<language>de</language>
+						</metametadata>
+						
+						<technical>
+							<format>text/xml</format>
+							<size>0</size>
+							<location>./qti_LA_0007.xml</location>
+							<requirement>
+								<type>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</type>
+								<name>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</name>
+							</requirement>
+						</technical>
+						
+						<educational>
+							<interactivitytype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">mixed</langstring>
+								</value>
+							</interactivitytype>
+							<learningresourcetype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">exercise</langstring>
+								</value>
+							</learningresourcetype>
+							<interactivitylevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</interactivitylevel>
+							<semanticdensity>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</semanticdensity>
+							<intendedenduserrole>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">learner</langstring>
+								</value>
+							</intendedenduserrole>
+							<context>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">higher education</langstring>
+								</value>
+							</context>
+							<typicalagerange>
+								<langstring xml:lang="de">12-</langstring>
+							</typicalagerange>
+							<difficulty>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">easy</langstring>
+								</value>
+							</difficulty>
+							<typicallearningtime>
+								<description>
+									<langstring xml:lang="de">undefined</langstring>
+								</description>
+							</typicallearningtime>
+							<description>
+								<langstring xml:lang="de"></langstring>
+							</description>
+							<language>de</language>
+						</educational>
+						
+						<rights>
+							<cost>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</cost>
+							<copyrightandotherrestrictions>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</copyrightandotherrestrictions>
+						</rights>
+						
+						<relation>
+							<kind>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</kind>
+						</relation>
+						
+						<classification>
+							<purpose>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</purpose>
+						</classification>
+					</lom>
+				</imsld:metadata>
+            </imsld:learning-object>
+		  </imsld:environment>
+		
+          <imsld:environment identifier="E_LA_0008">
+            <imsld:learning-object identifier="LO_LA_0008" type="test-object">
+				<imsld:item identifier="ITM_LA_0008" identifierref="RES_LA_0008" isvisible="true" />
+				<imsld:metadata>
+					<imsld:schema>IMS Content</imsld:schema>
+					<imsld:schemaversion>1.2.4</imsld:schemaversion>
+					<lom xmlns="http://www.imsglobal.org/xsd/imsmd_v1p2" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_v1p2 http://www.imsglobal.org/xsd/imsmd_v1p2p4.xsd">
+						<general>
+							<identifier>MD_LA_0008</identifier>
+							<title>
+								<langstring xml:lang="de">LA_0008</langstring>
+							</title>
+							<language>de</language>
+							<description>
+								<langstring xml:lang="de">Die beiden noerdlichsten Staedte sind es nicht.</langstring>
+							</description>
+							
+							<keyword>
+								<langstring xml:lang="de">interaction:mc</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">topic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">subtopic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">difficulty:easy</langstring>
+							</keyword>
+														<coverage>
+								<langstring xml:lang="de">general</langstring>
+							</coverage>
+							<structure>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">atomic</langstring>
+								</value>
+							</structure>
+							<aggregationlevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">1</langstring>
+								</value>
+							</aggregationlevel>
+						</general>
+						
+						<lifecycle>
+							<version>
+								<langstring xml:lang="de">1.0</langstring>
+							</version>
+							<status>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">draft</langstring>
+								</value>
+							</status>
+							<contribute>
+								<role>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de">author</langstring>
+									</value>
+								</role>
+								<centity>
+									<vcard>
+										BEGIN:VCARD
+										VERSION:3.0
+										FN: D.W.
+										END:VCARD
+									</vcard>
+								</centity>
+								<date>
+									<datetime>17.10.2017</datetime>
+								</date>
+							</contribute>
+						</lifecycle>
+						
+						<metametadata>
+							<metadatascheme>LOMv1.0</metadatascheme>
+							<language>de</language>
+						</metametadata>
+						
+						<technical>
+							<format>text/xml</format>
+							<size>0</size>
+							<location>./qti_LA_0008.xml</location>
+							<requirement>
+								<type>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</type>
+								<name>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</name>
+							</requirement>
+						</technical>
+						
+						<educational>
+							<interactivitytype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">mixed</langstring>
+								</value>
+							</interactivitytype>
+							<learningresourcetype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">exercise</langstring>
+								</value>
+							</learningresourcetype>
+							<interactivitylevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</interactivitylevel>
+							<semanticdensity>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</semanticdensity>
+							<intendedenduserrole>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">learner</langstring>
+								</value>
+							</intendedenduserrole>
+							<context>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">higher education</langstring>
+								</value>
+							</context>
+							<typicalagerange>
+								<langstring xml:lang="de">12-</langstring>
+							</typicalagerange>
+							<difficulty>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">easy</langstring>
+								</value>
+							</difficulty>
+							<typicallearningtime>
+								<description>
+									<langstring xml:lang="de">undefined</langstring>
+								</description>
+							</typicallearningtime>
+							<description>
+								<langstring xml:lang="de">Die beiden noerdlichsten Staedte sind es nicht.</langstring>
+							</description>
+							<language>de</language>
+						</educational>
+						
+						<rights>
+							<cost>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</cost>
+							<copyrightandotherrestrictions>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</copyrightandotherrestrictions>
+						</rights>
+						
+						<relation>
+							<kind>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</kind>
+						</relation>
+						
+						<classification>
+							<purpose>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</purpose>
+						</classification>
+					</lom>
+				</imsld:metadata>
+            </imsld:learning-object>
+		  </imsld:environment>
+		
+          <imsld:environment identifier="E_LA_0009">
+            <imsld:learning-object identifier="LO_LA_0009" type="knowledge-object">
+				<imsld:item identifier="ITM_LA_0009" identifierref="RES_LA_0009" isvisible="true" />
+				<imsld:metadata>
+					<imsld:schema>IMS Content</imsld:schema>
+					<imsld:schemaversion>1.2.4</imsld:schemaversion>
+					<lom xmlns="http://www.imsglobal.org/xsd/imsmd_v1p2" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_v1p2 http://www.imsglobal.org/xsd/imsmd_v1p2p4.xsd">
+						<general>
+							<identifier>MD_LA_0009</identifier>
+							<title>
+								<langstring xml:lang="de">LA_0009</langstring>
+							</title>
+							<language>de</language>
+							<description>
+								<langstring xml:lang="de"></langstring>
+							</description>
+							
+							<keyword>
+								<langstring xml:lang="de">interaction:fact</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">topic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">subtopic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">difficulty:easy</langstring>
+							</keyword>
+														<coverage>
+								<langstring xml:lang="de">general</langstring>
+							</coverage>
+							<structure>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">atomic</langstring>
+								</value>
+							</structure>
+							<aggregationlevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">1</langstring>
+								</value>
+							</aggregationlevel>
+						</general>
+						
+						<lifecycle>
+							<version>
+								<langstring xml:lang="de">1.0</langstring>
+							</version>
+							<status>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">draft</langstring>
+								</value>
+							</status>
+							<contribute>
+								<role>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de">author</langstring>
+									</value>
+								</role>
+								<centity>
+									<vcard>
+										BEGIN:VCARD
+										VERSION:3.0
+										FN: D.W.
+										END:VCARD
+									</vcard>
+								</centity>
+								<date>
+									<datetime>17.10.2017</datetime>
+								</date>
+							</contribute>
+						</lifecycle>
+						
+						<metametadata>
+							<metadatascheme>LOMv1.0</metadatascheme>
+							<language>de</language>
+						</metametadata>
+						
+						<technical>
+							<format>text/xml</format>
+							<size>0</size>
+							<location>./qti_LA_0009.xml</location>
+							<requirement>
+								<type>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</type>
+								<name>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</name>
+							</requirement>
+						</technical>
+						
+						<educational>
+							<interactivitytype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">mixed</langstring>
+								</value>
+							</interactivitytype>
+							<learningresourcetype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">exercise</langstring>
+								</value>
+							</learningresourcetype>
+							<interactivitylevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</interactivitylevel>
+							<semanticdensity>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</semanticdensity>
+							<intendedenduserrole>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">learner</langstring>
+								</value>
+							</intendedenduserrole>
+							<context>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">higher education</langstring>
+								</value>
+							</context>
+							<typicalagerange>
+								<langstring xml:lang="de">12-</langstring>
+							</typicalagerange>
+							<difficulty>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">easy</langstring>
+								</value>
+							</difficulty>
+							<typicallearningtime>
+								<description>
+									<langstring xml:lang="de">undefined</langstring>
+								</description>
+							</typicallearningtime>
+							<description>
+								<langstring xml:lang="de"></langstring>
+							</description>
+							<language>de</language>
+						</educational>
+						
+						<rights>
+							<cost>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</cost>
+							<copyrightandotherrestrictions>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</copyrightandotherrestrictions>
+						</rights>
+						
+						<relation>
+							<kind>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</kind>
+						</relation>
+						
+						<classification>
+							<purpose>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</purpose>
+						</classification>
+					</lom>
+				</imsld:metadata>
+            </imsld:learning-object>
+		  </imsld:environment>
+		
+          <imsld:environment identifier="E_LA_0010">
+            <imsld:learning-object identifier="LO_LA_0010" type="knowledge-object">
+				<imsld:item identifier="ITM_LA_0010" identifierref="RES_LA_0010" isvisible="true" />
+				<imsld:metadata>
+					<imsld:schema>IMS Content</imsld:schema>
+					<imsld:schemaversion>1.2.4</imsld:schemaversion>
+					<lom xmlns="http://www.imsglobal.org/xsd/imsmd_v1p2" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_v1p2 http://www.imsglobal.org/xsd/imsmd_v1p2p4.xsd">
+						<general>
+							<identifier>MD_LA_0010</identifier>
+							<title>
+								<langstring xml:lang="de">LA_0010</langstring>
+							</title>
+							<language>de</language>
+							<description>
+								<langstring xml:lang="de"></langstring>
+							</description>
+							
+							<keyword>
+								<langstring xml:lang="de">interaction:fact</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">topic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">subtopic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">difficulty:easy</langstring>
+							</keyword>
+														<coverage>
+								<langstring xml:lang="de">general</langstring>
+							</coverage>
+							<structure>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">atomic</langstring>
+								</value>
+							</structure>
+							<aggregationlevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">1</langstring>
+								</value>
+							</aggregationlevel>
+						</general>
+						
+						<lifecycle>
+							<version>
+								<langstring xml:lang="de">1.0</langstring>
+							</version>
+							<status>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">draft</langstring>
+								</value>
+							</status>
+							<contribute>
+								<role>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de">author</langstring>
+									</value>
+								</role>
+								<centity>
+									<vcard>
+										BEGIN:VCARD
+										VERSION:3.0
+										FN: D.W.
+										END:VCARD
+									</vcard>
+								</centity>
+								<date>
+									<datetime>17.10.2017</datetime>
+								</date>
+							</contribute>
+						</lifecycle>
+						
+						<metametadata>
+							<metadatascheme>LOMv1.0</metadatascheme>
+							<language>de</language>
+						</metametadata>
+						
+						<technical>
+							<format>text/xml</format>
+							<size>0</size>
+							<location>./qti_LA_0010.xml</location>
+							<requirement>
+								<type>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</type>
+								<name>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</name>
+							</requirement>
+						</technical>
+						
+						<educational>
+							<interactivitytype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">mixed</langstring>
+								</value>
+							</interactivitytype>
+							<learningresourcetype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">exercise</langstring>
+								</value>
+							</learningresourcetype>
+							<interactivitylevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</interactivitylevel>
+							<semanticdensity>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</semanticdensity>
+							<intendedenduserrole>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">learner</langstring>
+								</value>
+							</intendedenduserrole>
+							<context>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">higher education</langstring>
+								</value>
+							</context>
+							<typicalagerange>
+								<langstring xml:lang="de">12-</langstring>
+							</typicalagerange>
+							<difficulty>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">easy</langstring>
+								</value>
+							</difficulty>
+							<typicallearningtime>
+								<description>
+									<langstring xml:lang="de">undefined</langstring>
+								</description>
+							</typicallearningtime>
+							<description>
+								<langstring xml:lang="de"></langstring>
+							</description>
+							<language>de</language>
+						</educational>
+						
+						<rights>
+							<cost>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</cost>
+							<copyrightandotherrestrictions>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</copyrightandotherrestrictions>
+						</rights>
+						
+						<relation>
+							<kind>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</kind>
+						</relation>
+						
+						<classification>
+							<purpose>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</purpose>
+						</classification>
+					</lom>
+				</imsld:metadata>
+            </imsld:learning-object>
+		  </imsld:environment>
+		
+          <imsld:environment identifier="E_LA_0011">
+            <imsld:learning-object identifier="LO_LA_0011" type="test-object">
+				<imsld:item identifier="ITM_LA_0011" identifierref="RES_LA_0011" isvisible="true" />
+				<imsld:metadata>
+					<imsld:schema>IMS Content</imsld:schema>
+					<imsld:schemaversion>1.2.4</imsld:schemaversion>
+					<lom xmlns="http://www.imsglobal.org/xsd/imsmd_v1p2" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_v1p2 http://www.imsglobal.org/xsd/imsmd_v1p2p4.xsd">
+						<general>
+							<identifier>MD_LA_0011</identifier>
+							<title>
+								<langstring xml:lang="de">LA_0011</langstring>
+							</title>
+							<language>de</language>
+							<description>
+								<langstring xml:lang="de">Aus der Vogelperspektive ist Deutschland gruener als man denken mag.</langstring>
+							</description>
+							
+							<keyword>
+								<langstring xml:lang="de">interaction:order</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">topic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">subtopic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">difficulty:easy</langstring>
+							</keyword>
+														<coverage>
+								<langstring xml:lang="de">general</langstring>
+							</coverage>
+							<structure>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">atomic</langstring>
+								</value>
+							</structure>
+							<aggregationlevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">1</langstring>
+								</value>
+							</aggregationlevel>
+						</general>
+						
+						<lifecycle>
+							<version>
+								<langstring xml:lang="de">1.0</langstring>
+							</version>
+							<status>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">draft</langstring>
+								</value>
+							</status>
+							<contribute>
+								<role>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de">author</langstring>
+									</value>
+								</role>
+								<centity>
+									<vcard>
+										BEGIN:VCARD
+										VERSION:3.0
+										FN: D.W.
+										END:VCARD
+									</vcard>
+								</centity>
+								<date>
+									<datetime>17.10.2017</datetime>
+								</date>
+							</contribute>
+						</lifecycle>
+						
+						<metametadata>
+							<metadatascheme>LOMv1.0</metadatascheme>
+							<language>de</language>
+						</metametadata>
+						
+						<technical>
+							<format>text/xml</format>
+							<size>0</size>
+							<location>./qti_LA_0011.xml</location>
+							<requirement>
+								<type>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</type>
+								<name>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</name>
+							</requirement>
+						</technical>
+						
+						<educational>
+							<interactivitytype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">mixed</langstring>
+								</value>
+							</interactivitytype>
+							<learningresourcetype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">exercise</langstring>
+								</value>
+							</learningresourcetype>
+							<interactivitylevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</interactivitylevel>
+							<semanticdensity>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</semanticdensity>
+							<intendedenduserrole>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">learner</langstring>
+								</value>
+							</intendedenduserrole>
+							<context>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">higher education</langstring>
+								</value>
+							</context>
+							<typicalagerange>
+								<langstring xml:lang="de">12-</langstring>
+							</typicalagerange>
+							<difficulty>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">easy</langstring>
+								</value>
+							</difficulty>
+							<typicallearningtime>
+								<description>
+									<langstring xml:lang="de">undefined</langstring>
+								</description>
+							</typicallearningtime>
+							<description>
+								<langstring xml:lang="de">Aus der Vogelperspektive ist Deutschland gruener als man denken mag.</langstring>
+							</description>
+							<language>de</language>
+						</educational>
+						
+						<rights>
+							<cost>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</cost>
+							<copyrightandotherrestrictions>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</copyrightandotherrestrictions>
+						</rights>
+						
+						<relation>
+							<kind>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</kind>
+						</relation>
+						
+						<classification>
+							<purpose>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</purpose>
+						</classification>
+					</lom>
+				</imsld:metadata>
+            </imsld:learning-object>
+		  </imsld:environment>
+		
+          <imsld:environment identifier="E_LA_0012">
+            <imsld:learning-object identifier="LO_LA_0012" type="knowledge-object">
+				<imsld:item identifier="ITM_LA_0012" identifierref="RES_LA_0012" isvisible="true" />
+				<imsld:metadata>
+					<imsld:schema>IMS Content</imsld:schema>
+					<imsld:schemaversion>1.2.4</imsld:schemaversion>
+					<lom xmlns="http://www.imsglobal.org/xsd/imsmd_v1p2" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_v1p2 http://www.imsglobal.org/xsd/imsmd_v1p2p4.xsd">
+						<general>
+							<identifier>MD_LA_0012</identifier>
+							<title>
+								<langstring xml:lang="de">LA_0012</langstring>
+							</title>
+							<language>de</language>
+							<description>
+								<langstring xml:lang="de"></langstring>
+							</description>
+							
+							<keyword>
+								<langstring xml:lang="de">interaction:fact</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">topic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">subtopic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">difficulty:easy</langstring>
+							</keyword>
+														<coverage>
+								<langstring xml:lang="de">general</langstring>
+							</coverage>
+							<structure>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">atomic</langstring>
+								</value>
+							</structure>
+							<aggregationlevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">1</langstring>
+								</value>
+							</aggregationlevel>
+						</general>
+						
+						<lifecycle>
+							<version>
+								<langstring xml:lang="de">1.0</langstring>
+							</version>
+							<status>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">draft</langstring>
+								</value>
+							</status>
+							<contribute>
+								<role>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de">author</langstring>
+									</value>
+								</role>
+								<centity>
+									<vcard>
+										BEGIN:VCARD
+										VERSION:3.0
+										FN: D.W.
+										END:VCARD
+									</vcard>
+								</centity>
+								<date>
+									<datetime>17.10.2017</datetime>
+								</date>
+							</contribute>
+						</lifecycle>
+						
+						<metametadata>
+							<metadatascheme>LOMv1.0</metadatascheme>
+							<language>de</language>
+						</metametadata>
+						
+						<technical>
+							<format>text/xml</format>
+							<size>0</size>
+							<location>./qti_LA_0012.xml</location>
+							<requirement>
+								<type>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</type>
+								<name>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</name>
+							</requirement>
+						</technical>
+						
+						<educational>
+							<interactivitytype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">mixed</langstring>
+								</value>
+							</interactivitytype>
+							<learningresourcetype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">exercise</langstring>
+								</value>
+							</learningresourcetype>
+							<interactivitylevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</interactivitylevel>
+							<semanticdensity>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</semanticdensity>
+							<intendedenduserrole>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">learner</langstring>
+								</value>
+							</intendedenduserrole>
+							<context>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">higher education</langstring>
+								</value>
+							</context>
+							<typicalagerange>
+								<langstring xml:lang="de">12-</langstring>
+							</typicalagerange>
+							<difficulty>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">easy</langstring>
+								</value>
+							</difficulty>
+							<typicallearningtime>
+								<description>
+									<langstring xml:lang="de">undefined</langstring>
+								</description>
+							</typicallearningtime>
+							<description>
+								<langstring xml:lang="de"></langstring>
+							</description>
+							<language>de</language>
+						</educational>
+						
+						<rights>
+							<cost>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</cost>
+							<copyrightandotherrestrictions>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</copyrightandotherrestrictions>
+						</rights>
+						
+						<relation>
+							<kind>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</kind>
+						</relation>
+						
+						<classification>
+							<purpose>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</purpose>
+						</classification>
+					</lom>
+				</imsld:metadata>
+            </imsld:learning-object>
+		  </imsld:environment>
+		
+          <imsld:environment identifier="E_LA_0013">
+            <imsld:learning-object identifier="LO_LA_0013" type="knowledge-object">
+				<imsld:item identifier="ITM_LA_0013" identifierref="RES_LA_0013" isvisible="true" />
+				<imsld:metadata>
+					<imsld:schema>IMS Content</imsld:schema>
+					<imsld:schemaversion>1.2.4</imsld:schemaversion>
+					<lom xmlns="http://www.imsglobal.org/xsd/imsmd_v1p2" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_v1p2 http://www.imsglobal.org/xsd/imsmd_v1p2p4.xsd">
+						<general>
+							<identifier>MD_LA_0013</identifier>
+							<title>
+								<langstring xml:lang="de">LA_0013</langstring>
+							</title>
+							<language>de</language>
+							<description>
+								<langstring xml:lang="de"></langstring>
+							</description>
+							
+							<keyword>
+								<langstring xml:lang="de">interaction:fact</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">topic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">subtopic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">difficulty:easy</langstring>
+							</keyword>
+														<coverage>
+								<langstring xml:lang="de">general</langstring>
+							</coverage>
+							<structure>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">atomic</langstring>
+								</value>
+							</structure>
+							<aggregationlevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">1</langstring>
+								</value>
+							</aggregationlevel>
+						</general>
+						
+						<lifecycle>
+							<version>
+								<langstring xml:lang="de">1.0</langstring>
+							</version>
+							<status>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">draft</langstring>
+								</value>
+							</status>
+							<contribute>
+								<role>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de">author</langstring>
+									</value>
+								</role>
+								<centity>
+									<vcard>
+										BEGIN:VCARD
+										VERSION:3.0
+										FN: D.W.
+										END:VCARD
+									</vcard>
+								</centity>
+								<date>
+									<datetime>17.10.2017</datetime>
+								</date>
+							</contribute>
+						</lifecycle>
+						
+						<metametadata>
+							<metadatascheme>LOMv1.0</metadatascheme>
+							<language>de</language>
+						</metametadata>
+						
+						<technical>
+							<format>text/xml</format>
+							<size>0</size>
+							<location>./qti_LA_0013.xml</location>
+							<requirement>
+								<type>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</type>
+								<name>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</name>
+							</requirement>
+						</technical>
+						
+						<educational>
+							<interactivitytype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">mixed</langstring>
+								</value>
+							</interactivitytype>
+							<learningresourcetype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">exercise</langstring>
+								</value>
+							</learningresourcetype>
+							<interactivitylevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</interactivitylevel>
+							<semanticdensity>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</semanticdensity>
+							<intendedenduserrole>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">learner</langstring>
+								</value>
+							</intendedenduserrole>
+							<context>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">higher education</langstring>
+								</value>
+							</context>
+							<typicalagerange>
+								<langstring xml:lang="de">12-</langstring>
+							</typicalagerange>
+							<difficulty>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">easy</langstring>
+								</value>
+							</difficulty>
+							<typicallearningtime>
+								<description>
+									<langstring xml:lang="de">undefined</langstring>
+								</description>
+							</typicallearningtime>
+							<description>
+								<langstring xml:lang="de"></langstring>
+							</description>
+							<language>de</language>
+						</educational>
+						
+						<rights>
+							<cost>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</cost>
+							<copyrightandotherrestrictions>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</copyrightandotherrestrictions>
+						</rights>
+						
+						<relation>
+							<kind>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</kind>
+						</relation>
+						
+						<classification>
+							<purpose>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</purpose>
+						</classification>
+					</lom>
+				</imsld:metadata>
+            </imsld:learning-object>
+		  </imsld:environment>
+		
+          <imsld:environment identifier="E_LA_0014">
+            <imsld:learning-object identifier="LO_LA_0014" type="knowledge-object">
+				<imsld:item identifier="ITM_LA_0014" identifierref="RES_LA_0014" isvisible="true" />
+				<imsld:metadata>
+					<imsld:schema>IMS Content</imsld:schema>
+					<imsld:schemaversion>1.2.4</imsld:schemaversion>
+					<lom xmlns="http://www.imsglobal.org/xsd/imsmd_v1p2" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_v1p2 http://www.imsglobal.org/xsd/imsmd_v1p2p4.xsd">
+						<general>
+							<identifier>MD_LA_0014</identifier>
+							<title>
+								<langstring xml:lang="de">LA_0014</langstring>
+							</title>
+							<language>de</language>
+							<description>
+								<langstring xml:lang="de"></langstring>
+							</description>
+							
+							<keyword>
+								<langstring xml:lang="de">interaction:fact</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">topic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">subtopic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">difficulty:easy</langstring>
+							</keyword>
+														<coverage>
+								<langstring xml:lang="de">general</langstring>
+							</coverage>
+							<structure>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">atomic</langstring>
+								</value>
+							</structure>
+							<aggregationlevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">1</langstring>
+								</value>
+							</aggregationlevel>
+						</general>
+						
+						<lifecycle>
+							<version>
+								<langstring xml:lang="de">1.0</langstring>
+							</version>
+							<status>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">draft</langstring>
+								</value>
+							</status>
+							<contribute>
+								<role>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de">author</langstring>
+									</value>
+								</role>
+								<centity>
+									<vcard>
+										BEGIN:VCARD
+										VERSION:3.0
+										FN: D.W.
+										END:VCARD
+									</vcard>
+								</centity>
+								<date>
+									<datetime>17.10.2017</datetime>
+								</date>
+							</contribute>
+						</lifecycle>
+						
+						<metametadata>
+							<metadatascheme>LOMv1.0</metadatascheme>
+							<language>de</language>
+						</metametadata>
+						
+						<technical>
+							<format>text/xml</format>
+							<size>0</size>
+							<location>./qti_LA_0014.xml</location>
+							<requirement>
+								<type>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</type>
+								<name>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</name>
+							</requirement>
+						</technical>
+						
+						<educational>
+							<interactivitytype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">mixed</langstring>
+								</value>
+							</interactivitytype>
+							<learningresourcetype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">exercise</langstring>
+								</value>
+							</learningresourcetype>
+							<interactivitylevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</interactivitylevel>
+							<semanticdensity>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</semanticdensity>
+							<intendedenduserrole>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">learner</langstring>
+								</value>
+							</intendedenduserrole>
+							<context>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">higher education</langstring>
+								</value>
+							</context>
+							<typicalagerange>
+								<langstring xml:lang="de">12-</langstring>
+							</typicalagerange>
+							<difficulty>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">easy</langstring>
+								</value>
+							</difficulty>
+							<typicallearningtime>
+								<description>
+									<langstring xml:lang="de">undefined</langstring>
+								</description>
+							</typicallearningtime>
+							<description>
+								<langstring xml:lang="de"></langstring>
+							</description>
+							<language>de</language>
+						</educational>
+						
+						<rights>
+							<cost>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</cost>
+							<copyrightandotherrestrictions>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</copyrightandotherrestrictions>
+						</rights>
+						
+						<relation>
+							<kind>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</kind>
+						</relation>
+						
+						<classification>
+							<purpose>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</purpose>
+						</classification>
+					</lom>
+				</imsld:metadata>
+            </imsld:learning-object>
+		  </imsld:environment>
+		
+          <imsld:environment identifier="E_LA_0015">
+            <imsld:learning-object identifier="LO_LA_0015" type="test-object">
+				<imsld:item identifier="ITM_LA_0015" identifierref="RES_LA_0015" isvisible="true" />
+				<imsld:metadata>
+					<imsld:schema>IMS Content</imsld:schema>
+					<imsld:schemaversion>1.2.4</imsld:schemaversion>
+					<lom xmlns="http://www.imsglobal.org/xsd/imsmd_v1p2" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_v1p2 http://www.imsglobal.org/xsd/imsmd_v1p2p4.xsd">
+						<general>
+							<identifier>MD_LA_0015</identifier>
+							<title>
+								<langstring xml:lang="de">LA_0015</langstring>
+							</title>
+							<language>de</language>
+							<description>
+								<langstring xml:lang="de">Deutschland isst viel Teigwaren und braucht daher viel Mehl.</langstring>
+							</description>
+							
+							<keyword>
+								<langstring xml:lang="de">interaction:sc</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">topic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">subtopic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">difficulty:easy</langstring>
+							</keyword>
+														<coverage>
+								<langstring xml:lang="de">general</langstring>
+							</coverage>
+							<structure>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">atomic</langstring>
+								</value>
+							</structure>
+							<aggregationlevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">1</langstring>
+								</value>
+							</aggregationlevel>
+						</general>
+						
+						<lifecycle>
+							<version>
+								<langstring xml:lang="de">1.0</langstring>
+							</version>
+							<status>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">draft</langstring>
+								</value>
+							</status>
+							<contribute>
+								<role>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de">author</langstring>
+									</value>
+								</role>
+								<centity>
+									<vcard>
+										BEGIN:VCARD
+										VERSION:3.0
+										FN: D.W.
+										END:VCARD
+									</vcard>
+								</centity>
+								<date>
+									<datetime>17.10.2017</datetime>
+								</date>
+							</contribute>
+						</lifecycle>
+						
+						<metametadata>
+							<metadatascheme>LOMv1.0</metadatascheme>
+							<language>de</language>
+						</metametadata>
+						
+						<technical>
+							<format>text/xml</format>
+							<size>0</size>
+							<location>./qti_LA_0015.xml</location>
+							<requirement>
+								<type>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</type>
+								<name>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</name>
+							</requirement>
+						</technical>
+						
+						<educational>
+							<interactivitytype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">mixed</langstring>
+								</value>
+							</interactivitytype>
+							<learningresourcetype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">exercise</langstring>
+								</value>
+							</learningresourcetype>
+							<interactivitylevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</interactivitylevel>
+							<semanticdensity>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</semanticdensity>
+							<intendedenduserrole>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">learner</langstring>
+								</value>
+							</intendedenduserrole>
+							<context>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">higher education</langstring>
+								</value>
+							</context>
+							<typicalagerange>
+								<langstring xml:lang="de">12-</langstring>
+							</typicalagerange>
+							<difficulty>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">easy</langstring>
+								</value>
+							</difficulty>
+							<typicallearningtime>
+								<description>
+									<langstring xml:lang="de">undefined</langstring>
+								</description>
+							</typicallearningtime>
+							<description>
+								<langstring xml:lang="de">Deutschland isst viel Teigwaren und braucht daher viel Mehl.</langstring>
+							</description>
+							<language>de</language>
+						</educational>
+						
+						<rights>
+							<cost>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</cost>
+							<copyrightandotherrestrictions>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</copyrightandotherrestrictions>
+						</rights>
+						
+						<relation>
+							<kind>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</kind>
+						</relation>
+						
+						<classification>
+							<purpose>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</purpose>
+						</classification>
+					</lom>
+				</imsld:metadata>
+            </imsld:learning-object>
+		  </imsld:environment>
+		
+          <imsld:environment identifier="E_LA_0016">
+            <imsld:learning-object identifier="LO_LA_0016" type="knowledge-object">
+				<imsld:item identifier="ITM_LA_0016" identifierref="RES_LA_0016" isvisible="true" />
+				<imsld:metadata>
+					<imsld:schema>IMS Content</imsld:schema>
+					<imsld:schemaversion>1.2.4</imsld:schemaversion>
+					<lom xmlns="http://www.imsglobal.org/xsd/imsmd_v1p2" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_v1p2 http://www.imsglobal.org/xsd/imsmd_v1p2p4.xsd">
+						<general>
+							<identifier>MD_LA_0016</identifier>
+							<title>
+								<langstring xml:lang="de">LA_0016</langstring>
+							</title>
+							<language>de</language>
+							<description>
+								<langstring xml:lang="de"></langstring>
+							</description>
+							
+							<keyword>
+								<langstring xml:lang="de">interaction:fact</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">topic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">subtopic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">difficulty:easy</langstring>
+							</keyword>
+														<coverage>
+								<langstring xml:lang="de">general</langstring>
+							</coverage>
+							<structure>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">atomic</langstring>
+								</value>
+							</structure>
+							<aggregationlevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">1</langstring>
+								</value>
+							</aggregationlevel>
+						</general>
+						
+						<lifecycle>
+							<version>
+								<langstring xml:lang="de">1.0</langstring>
+							</version>
+							<status>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">draft</langstring>
+								</value>
+							</status>
+							<contribute>
+								<role>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de">author</langstring>
+									</value>
+								</role>
+								<centity>
+									<vcard>
+										BEGIN:VCARD
+										VERSION:3.0
+										FN: D.W.
+										END:VCARD
+									</vcard>
+								</centity>
+								<date>
+									<datetime>17.10.2017</datetime>
+								</date>
+							</contribute>
+						</lifecycle>
+						
+						<metametadata>
+							<metadatascheme>LOMv1.0</metadatascheme>
+							<language>de</language>
+						</metametadata>
+						
+						<technical>
+							<format>text/xml</format>
+							<size>0</size>
+							<location>./qti_LA_0016.xml</location>
+							<requirement>
+								<type>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</type>
+								<name>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</name>
+							</requirement>
+						</technical>
+						
+						<educational>
+							<interactivitytype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">mixed</langstring>
+								</value>
+							</interactivitytype>
+							<learningresourcetype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">exercise</langstring>
+								</value>
+							</learningresourcetype>
+							<interactivitylevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</interactivitylevel>
+							<semanticdensity>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</semanticdensity>
+							<intendedenduserrole>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">learner</langstring>
+								</value>
+							</intendedenduserrole>
+							<context>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">higher education</langstring>
+								</value>
+							</context>
+							<typicalagerange>
+								<langstring xml:lang="de">12-</langstring>
+							</typicalagerange>
+							<difficulty>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">easy</langstring>
+								</value>
+							</difficulty>
+							<typicallearningtime>
+								<description>
+									<langstring xml:lang="de">undefined</langstring>
+								</description>
+							</typicallearningtime>
+							<description>
+								<langstring xml:lang="de"></langstring>
+							</description>
+							<language>de</language>
+						</educational>
+						
+						<rights>
+							<cost>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</cost>
+							<copyrightandotherrestrictions>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</copyrightandotherrestrictions>
+						</rights>
+						
+						<relation>
+							<kind>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</kind>
+						</relation>
+						
+						<classification>
+							<purpose>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</purpose>
+						</classification>
+					</lom>
+				</imsld:metadata>
+            </imsld:learning-object>
+		  </imsld:environment>
+		
+          <imsld:environment identifier="E_LA_0017">
+            <imsld:learning-object identifier="LO_LA_0017" type="test-object">
+				<imsld:item identifier="ITM_LA_0017" identifierref="RES_LA_0017" isvisible="true" />
+				<imsld:metadata>
+					<imsld:schema>IMS Content</imsld:schema>
+					<imsld:schemaversion>1.2.4</imsld:schemaversion>
+					<lom xmlns="http://www.imsglobal.org/xsd/imsmd_v1p2" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_v1p2 http://www.imsglobal.org/xsd/imsmd_v1p2p4.xsd">
+						<general>
+							<identifier>MD_LA_0017</identifier>
+							<title>
+								<langstring xml:lang="de">LA_0017</langstring>
+							</title>
+							<language>de</language>
+							<description>
+								<langstring xml:lang="de"></langstring>
+							</description>
+							
+							<keyword>
+								<langstring xml:lang="de">interaction:txt</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">topic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">subtopic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">difficulty:easy</langstring>
+							</keyword>
+														<coverage>
+								<langstring xml:lang="de">general</langstring>
+							</coverage>
+							<structure>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">atomic</langstring>
+								</value>
+							</structure>
+							<aggregationlevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">1</langstring>
+								</value>
+							</aggregationlevel>
+						</general>
+						
+						<lifecycle>
+							<version>
+								<langstring xml:lang="de">1.0</langstring>
+							</version>
+							<status>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">draft</langstring>
+								</value>
+							</status>
+							<contribute>
+								<role>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de">author</langstring>
+									</value>
+								</role>
+								<centity>
+									<vcard>
+										BEGIN:VCARD
+										VERSION:3.0
+										FN: D.W.
+										END:VCARD
+									</vcard>
+								</centity>
+								<date>
+									<datetime>17.10.2017</datetime>
+								</date>
+							</contribute>
+						</lifecycle>
+						
+						<metametadata>
+							<metadatascheme>LOMv1.0</metadatascheme>
+							<language>de</language>
+						</metametadata>
+						
+						<technical>
+							<format>text/xml</format>
+							<size>0</size>
+							<location>./qti_LA_0017.xml</location>
+							<requirement>
+								<type>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</type>
+								<name>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</name>
+							</requirement>
+						</technical>
+						
+						<educational>
+							<interactivitytype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">mixed</langstring>
+								</value>
+							</interactivitytype>
+							<learningresourcetype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">exercise</langstring>
+								</value>
+							</learningresourcetype>
+							<interactivitylevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</interactivitylevel>
+							<semanticdensity>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</semanticdensity>
+							<intendedenduserrole>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">learner</langstring>
+								</value>
+							</intendedenduserrole>
+							<context>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">higher education</langstring>
+								</value>
+							</context>
+							<typicalagerange>
+								<langstring xml:lang="de">12-</langstring>
+							</typicalagerange>
+							<difficulty>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">easy</langstring>
+								</value>
+							</difficulty>
+							<typicallearningtime>
+								<description>
+									<langstring xml:lang="de">undefined</langstring>
+								</description>
+							</typicallearningtime>
+							<description>
+								<langstring xml:lang="de"></langstring>
+							</description>
+							<language>de</language>
+						</educational>
+						
+						<rights>
+							<cost>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</cost>
+							<copyrightandotherrestrictions>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</copyrightandotherrestrictions>
+						</rights>
+						
+						<relation>
+							<kind>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</kind>
+						</relation>
+						
+						<classification>
+							<purpose>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</purpose>
+						</classification>
+					</lom>
+				</imsld:metadata>
+            </imsld:learning-object>
+		  </imsld:environment>
+		
+          <imsld:environment identifier="E_LA_0018">
+            <imsld:learning-object identifier="LO_LA_0018" type="test-object">
+				<imsld:item identifier="ITM_LA_0018" identifierref="RES_LA_0018" isvisible="true" />
+				<imsld:metadata>
+					<imsld:schema>IMS Content</imsld:schema>
+					<imsld:schemaversion>1.2.4</imsld:schemaversion>
+					<lom xmlns="http://www.imsglobal.org/xsd/imsmd_v1p2" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_v1p2 http://www.imsglobal.org/xsd/imsmd_v1p2p4.xsd">
+						<general>
+							<identifier>MD_LA_0018</identifier>
+							<title>
+								<langstring xml:lang="de">LA_0018</langstring>
+							</title>
+							<language>de</language>
+							<description>
+								<langstring xml:lang="de">Kiefern werden von einigen auch als Weihnachtsbaum verwendet.</langstring>
+							</description>
+							
+							<keyword>
+								<langstring xml:lang="de">interaction:asso</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">topic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">subtopic:deutschland</langstring>
+							</keyword>
+							
+							<keyword>
+								<langstring xml:lang="de">difficulty:easy</langstring>
+							</keyword>
+														<coverage>
+								<langstring xml:lang="de">general</langstring>
+							</coverage>
+							<structure>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">atomic</langstring>
+								</value>
+							</structure>
+							<aggregationlevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">1</langstring>
+								</value>
+							</aggregationlevel>
+						</general>
+						
+						<lifecycle>
+							<version>
+								<langstring xml:lang="de">1.0</langstring>
+							</version>
+							<status>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">draft</langstring>
+								</value>
+							</status>
+							<contribute>
+								<role>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de">author</langstring>
+									</value>
+								</role>
+								<centity>
+									<vcard>
+										BEGIN:VCARD
+										VERSION:3.0
+										FN: D.W.
+										END:VCARD
+									</vcard>
+								</centity>
+								<date>
+									<datetime>17.10.2017</datetime>
+								</date>
+							</contribute>
+						</lifecycle>
+						
+						<metametadata>
+							<metadatascheme>LOMv1.0</metadatascheme>
+							<language>de</language>
+						</metametadata>
+						
+						<technical>
+							<format>text/xml</format>
+							<size>0</size>
+							<location>./qti_LA_0018.xml</location>
+							<requirement>
+								<type>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</type>
+								<name>
+									<source>
+										<langstring xml:lang="de">LOMv1.0</langstring>
+									</source>
+									<value>
+										<langstring xml:lang="de" />
+									</value>
+								</name>
+							</requirement>
+						</technical>
+						
+						<educational>
+							<interactivitytype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">mixed</langstring>
+								</value>
+							</interactivitytype>
+							<learningresourcetype>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">exercise</langstring>
+								</value>
+							</learningresourcetype>
+							<interactivitylevel>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</interactivitylevel>
+							<semanticdensity>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">medium</langstring>
+								</value>
+							</semanticdensity>
+							<intendedenduserrole>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">learner</langstring>
+								</value>
+							</intendedenduserrole>
+							<context>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">higher education</langstring>
+								</value>
+							</context>
+							<typicalagerange>
+								<langstring xml:lang="de">12-</langstring>
+							</typicalagerange>
+							<difficulty>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">easy</langstring>
+								</value>
+							</difficulty>
+							<typicallearningtime>
+								<description>
+									<langstring xml:lang="de">undefined</langstring>
+								</description>
+							</typicallearningtime>
+							<description>
+								<langstring xml:lang="de">Kiefern werden von einigen auch als Weihnachtsbaum verwendet.</langstring>
+							</description>
+							<language>de</language>
+						</educational>
+						
+						<rights>
+							<cost>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</cost>
+							<copyrightandotherrestrictions>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de">no</langstring>
+								</value>
+							</copyrightandotherrestrictions>
+						</rights>
+						
+						<relation>
+							<kind>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</kind>
+						</relation>
+						
+						<classification>
+							<purpose>
+								<source>
+									<langstring xml:lang="de">LOMv1.0</langstring>
+								</source>
+								<value>
+									<langstring xml:lang="de" />
+								</value>
+							</purpose>
+						</classification>
+					</lom>
+				</imsld:metadata>
+            </imsld:learning-object>
+		  </imsld:environment>
+				</imsld:environments>
+		
+		
+      </imsld:components>
+      <imsld:method>
+        <imsld:play identifier="PL_start" isvisible="true">
+          <imsld:title>Start Play</imsld:title>
+          <imsld:act identifier="A_start">
+            <imsld:title>Start Act</imsld:title>
+            <imsld:role-part identifier="RP_start">
+              <imsld:title>Start Roleplay</imsld:title>
+              <imsld:role-ref ref="R_student" />
+              <imsld:activity-structure-ref ref="AS_main" />
+            </imsld:role-part>
+            <imsld:complete-act>
+               <imsld:when-role-part-completed ref="RP_start"/>
+            </imsld:complete-act>
+          </imsld:act>
+         <imsld:complete-play>
+            <imsld:when-last-act-completed/>
+         </imsld:complete-play>
+        </imsld:play>
+		
+		
+		<imsld:conditions>
+		
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0001</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>fact</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0002"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0002</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+					
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0002</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>sc</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0003"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0003</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+					
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0003</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>fact</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0004"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0004</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0003</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>false</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>fact</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0005"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0005</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+					
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0004</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>txt</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0006"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0006</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+					
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0005</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>fact</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0007"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0007</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+					
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0006</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>fact</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0009"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0009</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0006</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>false</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>fact</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0007"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0007</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+					
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0007</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>mc</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0008"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0008</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+					
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0008</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>fact</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0009"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0009</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0008</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>false</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>fact</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0005"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0005</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+					
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0009</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>fact</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0010"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0010</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+					
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0010</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>ord</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0011"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0011</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+					
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0011</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>fact</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0012"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0012</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0011</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>false</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>fact</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0013"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0013</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+					
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0012</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>fact</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0014"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0014</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+					
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0013</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>sc</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0015"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0015</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+					
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0014</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>asso</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0018"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0018</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+					
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0015</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>txt</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0017"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0017</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0015</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>false</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>fact</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0016"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0016</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+					
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0016</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>txt</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0017"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0017</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+					
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0017</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>fact</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0012"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0012</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0017</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>false</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>fact</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0012"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0012</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+					
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0018</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>fact</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0001"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0001</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+			
+			<imsld:if>
+				<imsld:and>
+					<imsld:is>
+						<imsld:property-ref ref="P_adaptive"/>
+						<imsld:property-value>true</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_current_activity"/>
+						<imsld:property-value>LA_0018</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_succeed"/>
+						<imsld:property-value>false</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_interaction"/>
+						<imsld:property-value>fact</imsld:property-value>
+					</imsld:is>
+					<imsld:is>
+						<imsld:property-ref ref="P_rec_difficulty"/>
+						<imsld:property-value>easy</imsld:property-value>
+					</imsld:is>
+				</imsld:and>
+			</imsld:if>
+			<imsld:then>
+				<imsld:show>
+					<imsld:learning-activity-ref ref="LA_0001"/>
+				</imsld:show>
+				<imsld:change-property-value>
+					<imsld:property-ref ref="P_current_activity"/>
+					<imsld:property-value>LA_0001</imsld:property-value>
+				</imsld:change-property-value>
+			</imsld:then>
+							</imsld:conditions>
+		
+      </imsld:method>
+    </imsld:learning-design>
+  </organizations>
+  
+  
+  <resources>
+  
+	    <resource identifier="RES_LA_0001" type="plain/text" href="qti_LA_0001.xml">
+      <file href="qti_LA_0001.xml" />
+    </resource>
+		  
+	    <resource identifier="RES_LA_0002" type="plain/text" href="qti_LA_0002.xml">
+      <file href="qti_LA_0002.xml" />
+    </resource>
+		  
+		    <resource identifier="RES_LA_0003" type="http://www.imsglobal.org/xsd/imsqti_v2p2" href="qti_LA_0003.xml">
+      <file href="qti_LA_0003.xml" />
+    </resource>
+	  
+	    <resource identifier="RES_LA_0004" type="plain/text" href="qti_LA_0004.xml">
+      <file href="qti_LA_0004.xml" />
+    </resource>
+		  
+	    <resource identifier="RES_LA_0005" type="plain/text" href="qti_LA_0005.xml">
+      <file href="qti_LA_0005.xml" />
+    </resource>
+		  
+		    <resource identifier="RES_LA_0006" type="http://www.imsglobal.org/xsd/imsqti_v2p2" href="qti_LA_0006.xml">
+      <file href="qti_LA_0006.xml" />
+    </resource>
+	  
+	    <resource identifier="RES_LA_0007" type="plain/text" href="qti_LA_0007.xml">
+      <file href="qti_LA_0007.xml" />
+    </resource>
+		  
+		    <resource identifier="RES_LA_0008" type="http://www.imsglobal.org/xsd/imsqti_v2p2" href="qti_LA_0008.xml">
+      <file href="qti_LA_0008.xml" />
+    </resource>
+	  
+	    <resource identifier="RES_LA_0009" type="plain/text" href="qti_LA_0009.xml">
+      <file href="qti_LA_0009.xml" />
+    </resource>
+		  
+	    <resource identifier="RES_LA_0010" type="plain/text" href="qti_LA_0010.xml">
+      <file href="qti_LA_0010.xml" />
+    </resource>
+		  
+		    <resource identifier="RES_LA_0011" type="http://www.imsglobal.org/xsd/imsqti_v2p2" href="qti_LA_0011.xml">
+      <file href="qti_LA_0011.xml" />
+    </resource>
+	  
+	    <resource identifier="RES_LA_0012" type="plain/text" href="qti_LA_0012.xml">
+      <file href="qti_LA_0012.xml" />
+    </resource>
+		  
+	    <resource identifier="RES_LA_0013" type="plain/text" href="qti_LA_0013.xml">
+      <file href="qti_LA_0013.xml" />
+    </resource>
+		  
+	    <resource identifier="RES_LA_0014" type="plain/text" href="qti_LA_0014.xml">
+      <file href="qti_LA_0014.xml" />
+    </resource>
+		  
+		    <resource identifier="RES_LA_0015" type="http://www.imsglobal.org/xsd/imsqti_v2p2" href="qti_LA_0015.xml">
+      <file href="qti_LA_0015.xml" />
+    </resource>
+	  
+	    <resource identifier="RES_LA_0016" type="plain/text" href="qti_LA_0016.xml">
+      <file href="qti_LA_0016.xml" />
+    </resource>
+		  
+		    <resource identifier="RES_LA_0017" type="http://www.imsglobal.org/xsd/imsqti_v2p2" href="qti_LA_0017.xml">
+      <file href="qti_LA_0017.xml" />
+    </resource>
+	  
+		    <resource identifier="RES_LA_0018" type="http://www.imsglobal.org/xsd/imsqti_v2p2" href="qti_LA_0018.xml">
+      <file href="qti_LA_0018.xml" />
+    </resource>
+	    </resources>
+</manifest>

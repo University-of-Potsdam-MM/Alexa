@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knowledgeItem identifier="ITM_LA_0010" title="LA_0010" adaptive="false" timeDependent="false">
+	<outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+	<itemBody>
+		<fact>
+			<prompt>In Deutschland werden insgesamt 52 Prozent der Landesflaeche landwirtschaftlich genutz. Waelder bedecken weitere 29,5 Prozent. 14 Prozent werden als Siedlungs- und Verkehrsflaeche genutzt. Tendenz steigend. Wasserflaechen kommen auf 2 Prozent, die restlichen 2,5 Prozent verteilen sich auf sonstige Flaechen, zumeist Oedland und auch Tagebaue.</prompt>
+		</fact>
+	</itemBody>
+</knowledgeItem>

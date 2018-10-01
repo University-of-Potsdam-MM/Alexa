@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knowledgeItem identifier="ITM_LA_0002" title="LA_0002" adaptive="false" timeDependent="false">
+	<outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+	<itemBody>
+		<fact>
+			<prompt>Die Bundesrepublik Deutschland stellt die juengste Auspraegung des deutschen Nationalstaates dar. Mit rund 82,8 Millionen Einwohnern zaehlt Deutschland zu den dicht besiedelten Flaechenstaaten.</prompt>
+		</fact>
+	</itemBody>
+</knowledgeItem>

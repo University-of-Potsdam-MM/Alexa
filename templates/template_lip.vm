@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<learnerinformation xmlns = "http://www.imsglobal.org/xsd/imslip_v1p0" 
+	xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation = "http://www.imsglobal.org/xsd/imslip_v1p0 http://www.imsglobal.org/xsd/imslip_v1p0.xsd">
+	<contentype>
+		<referential>
+			<sourcedid>
+				<source>learner_id</source>
+				<id>${learner.id}</id>
+			</sourcedid>
+		</referential>
+	</contentype>
+	<identification>
+		<contentype>
+			<referential>
+				<indexid>learner_identification</indexid>
+			</referential>
+		</contentype>
+		<name>
+			<typename>
+				<tysource sourcetype="imsdefault"/>
+				<tyvalue>Preferred</tyvalue>
+			</typename>
+			<contentype>
+				<referential>
+					<indexid>full_name</indexid>
+				</referential>
+			</contentype>
+			<partname>
+				<typename>
+					<tysource sourcetype="imsdefault"/>
+					<tyvalue>First</tyvalue>
+				</typename>
+				<text>${learner.first_name}</text>
+			</partname>
+			<partname>
+				<typename>
+					<tysource sourcetype="imsdefault"/>
+					<tyvalue>Last</tyvalue>
+				</typename>
+				<text>${learner.last_name}</text>
+			</partname>
+		</name>
+		<contactinfo>
+			<typename>
+				<tysource sourcetype="imsdefault"/>
+				<tyvalue>Email</tyvalue>
+			</typename>
+			<contentype>
+				<referential>
+					<indexid>contactinfo_email</indexid>
+				</referential>
+			</contentype>
+			<email>${learner.email}</email>
+		</contactinfo>
+		<demographics>
+			<typename>
+				<tysource sourcetype="imsdefault"/>
+				<tyvalue>Gender</tyvalue>
+			</typename>
+			<contentype>
+				<referential>
+					<indexid>demographics_gender</indexid>
+				</referential>
+			</contentype>
+			<gender gender="${learner.gender}"/>
+		</demographics>
+	</identification>
+	<accessibility>
+		<contentype>
+			<referential>
+				<indexid>$learner.ts</indexid>
+			</referential>
+		</contentype>
+		#foreach ($p in $learner.preferences)
+		<preference>
+			<typename>
+				<tysource sourcetype="imsdefault"/>
+				<tyvalue>Preference</tyvalue>
+			</typename>
+			<contentype>
+				<referential>
+					<indexid>${p.id}</indexid>
+				</referential>
+			</contentype>
+			<prefcode>${p.value}</prefcode>
+		</preference>
+		#end
+	</accessibility>
+	#foreach ($a in $learner.activities)
+	<activity>
+		<typename>
+			<tysource sourcetype = "imsdefault"/>
+			<tyvalue>${a.topic}: ${a.subtopic}</tyvalue>
+		</typename>
+		<contentype>
+			<referential>
+				<indexid>last_activity</indexid>
+			</referential>
+		</contentype>
+		<learningactivityref>
+			<sourcedid>
+				<source>activity_id</source>
+				<id>${a.ref}</id>
+			</sourcedid>
+		</learningactivityref>
+		<status>
+			<typename>
+				<tysource sourcetype = "imsdefault"/>
+				<tyvalue>State</tyvalue>
+			</typename>
+			<date>
+				<typename>
+					<tysource sourcetype = "imsdefault"/>
+					<tyvalue>${a.status}</tyvalue>
+				</typename>
+				<datetime>${a.datetime}</datetime>
+			</date>
+		</status>
+	</activity>
+	#end
+</learnerinformation>

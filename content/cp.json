@@ -1,0 +1,645 @@
+{
+    "learning_design": {
+        "title": "Deutschland"
+    },
+    "objectives": [
+        {"title": "Basiswissen Deutschland"},
+        {"title": "Fakten Deutschland"}
+    ],
+    "prerequisites": [
+        {"title": "none"},
+        {"title": "none"}
+    ],
+    "learning_activities": [
+        {
+            "id": "LA_0001",
+            "title": "LA_0001",
+            "objectives": [{"title": "none"}, {"title": "none"}],
+            "prerequisites": [{"ref": "none"}],
+            "description": "",
+            "feedback_pos": "",
+            "feedback_neg": "",
+            "type": "knowledge-object",
+            "file": "qti_LA_0001.xml",
+            "size": "0",
+            "difficulty": "easy",
+            "language": "de",
+            "author": "D.W.",
+            "creationdate": "17.10.2017",
+            "keywords": ["interaction:fact", "topic:deutschland", "subtopic:deutschland", "difficulty:easy"],
+            "next": [
+                {"succeed": "true", "interaction": "fact", "difficulty": "easy", "ref": "LA_0002"}
+            ],
+            "content": {
+                "interaction": "fact",
+                "fact": "Deutschland ist ein Bundesstaat in Mitteleuropa. Er besteht aus 16 Bundeslaendern und ist als freiheitlich demokratischer und sozialer Rechtsstaat verfasst."
+            }
+        },
+        {
+            "id": "LA_0002",
+            "title": "LA_0002",
+            "objectives": [{"title": "none"}, {"title": "none"}],
+            "prerequisites": [{"ref": "none"}],
+            "description": "",
+            "feedback_pos": "",
+            "feedback_neg": "",
+            "type": "knowledge-object",
+            "file": "qti_LA_0002.xml",
+            "size": "0",
+            "difficulty": "easy",
+            "language": "de",
+            "author": "D.W.",
+            "creationdate": "17.10.2017",
+            "keywords": ["interaction:fact", "topic:deutschland", "subtopic:deutschland", "difficulty:easy"],
+            "next": [
+                {"succeed": "true", "interaction": "sc", "difficulty": "easy", "ref": "LA_0003"}
+            ],
+            "content": {
+                "interaction": "fact",
+                "fact": "Die Bundesrepublik Deutschland stellt die juengste Auspraegung des deutschen Nationalstaates dar. Mit rund 82,8 Millionen Einwohnern zaehlt Deutschland zu den dicht besiedelten Flaechenstaaten."
+            }
+        },
+        {
+            "id": "LA_0003",
+            "title": "LA_0003",
+            "objectives": [{"title": "none"}, {"title": "none"}],
+            "prerequisites": [{"ref": "none"}],
+            "description": "Vor der Wiedervereinigung hatte Deutschland bereits 11 Bundeslaender.",
+            "feedback_pos": "Bravo, 16 Bundeslaender ist richtig. ",
+            "feedback_neg": "Schade, das ist leider falsch. Deutschland hat 16 Bundeslaender.",
+            "type": "test-object",
+            "file": "qti_LA_0003.xml",
+            "size": "0",
+            "difficulty": "easy",
+            "language": "de",
+            "author": "D.W.",
+            "creationdate": "17.10.2017",
+            "keywords": ["interaction:sc", "topic:deutschland", "subtopic:deutschland", "difficulty:easy"],
+            "next": [
+                {"succeed": "true", "interaction": "fact", "difficulty": "easy", "ref": "LA_0004"},
+                {"succeed": "false", "interaction": "fact", "difficulty": "easy", "ref": "LA_0005"}
+            ],
+            "content": {
+                "interaction": "sc",
+                "question": "Kannst du mir sagen, wie viele Bundeslaender Deutschland hat?",
+                "responses": [
+                    {
+                        "id": "resp0001",
+                        "response": "zehn",
+                        "isCorrect": "no",
+                        "score": "0"
+                    },
+                    {
+                        "id": "resp0002",
+                        "response": "zwoelf",
+                        "isCorrect": "no",
+                        "score": "0"
+                    },
+                    {
+                        "id": "resp0003",
+                        "response": "vierzehn",
+                        "isCorrect": "no",
+                        "score": "0"
+                    },
+                    {
+                        "id": "resp0004",
+                        "response": "sechzehn",
+                        "isCorrect": "yes",
+                        "score": "1"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "LA_0004",
+            "title": "LA_0004",
+            "objectives": [{"title": "none"}, {"title": "none"}],
+            "prerequisites": [{"ref": "none"}],
+            "description": "",
+            "feedback_pos": "",
+            "feedback_neg": "",
+            "type": "knowledge-object",
+            "file": "qti_LA_0004.xml",
+            "size": "0",
+            "difficulty": "easy",
+            "language": "de",
+            "author": "D.W.",
+            "creationdate": "17.10.2017",
+            "keywords": ["interaction:fact", "topic:deutschland", "subtopic:deutschland", "difficulty:easy"],
+            "next": [
+                {"succeed": "true", "interaction": "txt", "difficulty": "easy", "ref": "LA_0006"}
+            ],
+            "content": {
+                "interaction": "fact",
+                "fact": "An Deutschland grenzen neun Staaten und zwei Meere. Deutschland besitzt insgesamt sieben Metropolen."
+            }
+        },
+        {
+            "id": "LA_0005",
+            "title": "LA_0005",
+            "objectives": [{"title": "none"}, {"title": "none"}],
+            "prerequisites": [{"ref": "none"}],
+            "description": "",
+            "feedback_pos": "",
+            "feedback_neg": "",
+            "type": "knowledge-object",
+            "file": "qti_LA_0005.xml",
+            "size": "0",
+            "difficulty": "easy",
+            "language": "de",
+            "author": "D.W.",
+            "creationdate": "17.10.2017",
+            "keywords": ["interaction:fact", "topic:deutschland", "subtopic:deutschland", "difficulty:easy"],
+            "next": [
+                {"succeed": "true", "interaction": "fact", "difficulty": "easy", "ref": "LA_0007"}
+            ],
+            "content": {
+                "interaction": "fact",
+                "fact": "An Deutschland grenzen neun Staaten, im Norden die Gewaesser der Nord- und Ostsee und im Sueden das Bergland der Alpen. Es liegt in der gemaessigten Klimazone und verfuegt ueber viele National- und Naturparks. Bundeshauptstadt sowie bevoelkerungsreichste deutsche Stadt ist Berlin."
+            }
+        },
+        {
+            "id": "LA_0006",
+            "title": "LA_0006",
+            "objectives": [{"title": "none"}, {"title": "none"}],
+            "prerequisites": [{"ref": "none"}],
+            "description": "Denke an die Hauptstadt oder eine grosse Stadt im Norden Deutschlands.",
+            "feedback_pos": "Das ist richtig. Du scheinst dich gut in Deutschland auszukennen.",
+            "feedback_neg": "Schade, das ist leider falsch. Metropolen waeren zum Beispiel Berlin, Hamburg und Muenchen.",
+            "type": "test-object",
+            "file": "qti_LA_0006.xml",
+            "size": "0",
+            "difficulty": "easy",
+            "language": "de",
+            "author": "D.W.",
+            "creationdate": "17.10.2017",
+            "keywords": ["interaction:txt", "topic:deutschland", "subtopic:deutschland", "difficulty:easy"],
+            "next": [
+                {"succeed": "true", "interaction": "fact", "difficulty": "easy", "ref": "LA_0009"},
+                {"succeed": "false", "interaction": "fact", "difficulty": "easy", "ref": "LA_0007"}
+            ],
+            "content": {
+                "interaction": "txt",
+                "question": "Kannst du mir eine deutsche Metropole nennen?",
+                "responses": [
+                    {
+                        "id": "resp0001",
+                        "response": "berlin",
+                        "score": "1"
+                    },
+                    {
+                        "id": "resp0002",
+                        "response": "hamburg",
+                        "score": "1"
+                    },
+                    {
+                        "id": "resp0003",
+                        "response": "muenchen",
+                        "score": "1"
+                    },
+                    {
+                        "id": "resp0004",
+                        "response": "koeln",
+                        "score": "1"
+                    },
+                    {
+                        "id": "resp0005",
+                        "response": "frankfurt",
+                        "score": "1"
+                    },
+                    {
+                        "id": "resp0006",
+                        "response": "stuttgart",
+                        "score": "1"
+                    },
+                    {
+                        "id": "resp0007",
+                        "response": "duesseldorf",
+                        "score": "1"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "LA_0007",
+            "title": "LA_0007",
+            "objectives": [{"title": "none"}, {"title": "none"}],
+            "prerequisites": [{"ref": "none"}],
+            "description": "",
+            "feedback_pos": "",
+            "feedback_neg": "",
+            "type": "knowledge-object",
+            "file": "qti_LA_0007.xml",
+            "size": "0",
+            "difficulty": "easy",
+            "language": "de",
+            "author": "D.W.",
+            "creationdate": "17.10.2017",
+            "keywords": ["interaction:fact", "topic:deutschland", "subtopic:deutschland", "difficulty:easy"],
+            "next": [
+                {"succeed": "true", "interaction": "mc", "difficulty": "easy", "ref": "LA_0008"}
+            ],
+            "content": {
+                "interaction": "fact",
+                "fact": "Metropolen neben Berlin sind Hamburg, Muenchen, Koeln, Frankfurt, Stuttgart und Duesseldorf. Der groesste Ballungsraum ist das Ruhrgebiet. Das flaechenmaessig groesste Bundesland ist Bayern."
+            }
+        },
+        {
+            "id": "LA_0008",
+            "title": "LA_0008",
+            "objectives": [{"title": "none"}, {"title": "none"}],
+            "prerequisites": [{"ref": "none"}],
+            "description": "Die beiden noerdlichsten Staedte sind es nicht.",
+            "feedback_pos": "Super! Koeln und Frankfurt zaehlen zu den Metropolen.",
+            "feedback_neg": "Schade! Koeln und Frankfurt zaehlen zu den Metropolen.",
+            "type": "test-object",
+            "file": "qti_LA_0008.xml",
+            "size": "0",
+            "difficulty": "easy",
+            "language": "de",
+            "author": "D.W.",
+            "creationdate": "17.10.2017",
+            "keywords": ["interaction:mc", "topic:deutschland", "subtopic:deutschland", "difficulty:easy"],
+            "next": [
+                {"succeed": "true", "interaction": "fact", "difficulty": "easy", "ref": "LA_0009"},
+                {"succeed": "false", "interaction": "fact", "difficulty": "easy", "ref": "LA_0005"}
+            ],
+            "content": {
+                "interaction": "mc",
+                "question": "Welche der genannten Staedte gelten als Metropolen?",
+                "responses": [
+                    {
+                        "id": "resp0001",
+                        "response": "koeln",
+                        "isCorrect": "yes",
+                        "score": "1"
+                    },
+                    {
+                        "id": "resp0002",
+                        "response": "hannover",
+                        "isCorrect": "no",
+                        "score": "0"
+                    },
+                    {
+                        "id": "resp0003",
+                        "response": "frankfurt",
+                        "isCorrect": "yes",
+                        "score": "1"
+                    },
+                    {
+                        "id": "resp0004",
+                        "response": "bremen",
+                        "isCorrect": "no",
+                        "score": "0"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "LA_0009",
+            "title": "LA_0009",
+            "objectives": [{"title": "none"}, {"title": "none"}],
+            "prerequisites": [{"ref": "none"}],
+            "description": "",
+            "feedback_pos": "",
+            "feedback_neg": "",
+            "type": "knowledge-object",
+            "file": "qti_LA_0009.xml",
+            "size": "0",
+            "difficulty": "easy",
+            "language": "de",
+            "author": "D.W.",
+            "creationdate": "17.10.2017",
+            "keywords": ["interaction:fact", "topic:deutschland", "subtopic:deutschland", "difficulty:easy"],
+            "next": [
+                {"succeed": "true", "interaction": "fact", "difficulty": "easy", "ref": "LA_0010"}
+            ],
+            "content": {
+                "interaction": "fact",
+                "fact": "Deutschland gilt international als das Land mit der zweithoechsten Zahl von Einwanderern nach den Vereinigten Staaten (Stand 2015). Seine Bevoelkerung ist die zweitaelteste und hat mit 1,47 Kindern pro Frau eine der niedrigsten Geburtenraten der Welt."
+            }
+        },
+        {
+            "id": "LA_0010",
+            "title": "LA_0010",
+            "objectives": [{"title": "none"}, {"title": "none"}],
+            "prerequisites": [{"ref": "none"}],
+            "description": "",
+            "feedback_pos": "",
+            "feedback_neg": "",
+            "type": "knowledge-object",
+            "file": "qti_LA_0010.xml",
+            "size": "0",
+            "difficulty": "easy",
+            "language": "de",
+            "author": "D.W.",
+            "creationdate": "17.10.2017",
+            "keywords": ["interaction:fact", "topic:deutschland", "subtopic:deutschland", "difficulty:easy"],
+            "next": [
+                {"succeed": "true", "interaction": "ord", "difficulty": "easy", "ref": "LA_0011"}
+            ],
+            "content": {
+                "interaction": "fact",
+                "fact": "In Deutschland werden insgesamt 52 Prozent der Landesflaeche landwirtschaftlich genutz. Waelder bedecken weitere 29,5 Prozent. 14 Prozent werden als Siedlungs- und Verkehrsflaeche genutzt. Tendenz steigend. Wasserflaechen kommen auf 2 Prozent, die restlichen 2,5 Prozent verteilen sich auf sonstige Flaechen, zumeist Oedland und auch Tagebaue."
+            }
+        },
+        {
+            "id": "LA_0011",
+            "title": "LA_0011",
+            "objectives": [{"title": "none"}, {"title": "none"}],
+            "prerequisites": [{"ref": "none"}],
+            "description": "Aus der Vogelperspektive ist Deutschland gruener als man denken mag.",
+            "feedback_pos": "Gut aufgepasst! Mach weiter so.",
+            "feedback_neg": "Schade, das ist stimmt leider nicht ganz. Auf Landwirtschaft folgen Wald, Siedlungen und zuletzt das Wasser. Das war aber auch nicht leicht.",
+            "type": "test-object",
+            "file": "qti_LA_0011.xml",
+            "size": "0",
+            "difficulty": "easy",
+            "language": "de",
+            "author": "D.W.",
+            "creationdate": "17.10.2017",
+            "keywords": ["interaction:order", "topic:deutschland", "subtopic:deutschland", "difficulty:easy"],
+            "next": [
+                {"succeed": "true", "interaction": "fact", "difficulty": "easy", "ref": "LA_0012"},
+                {"succeed": "false", "interaction": "fact", "difficulty": "easy", "ref": "LA_0013"}
+            ],
+            "content": {
+                "interaction": "order",
+                "question": "Wodurch ist in Deutschland die meiste Flaeche bedeckt? Sortiere absteigend!",
+                "responses": [
+                    {
+                        "id": "resp0001",
+                        "response": "wald",
+                        "position": "2",
+                        "score": "1"
+                    },
+                    {
+                        "id": "resp0002",
+                        "response": "wasser",
+                        "position": "4",
+                        "score": "1"
+                    },
+                    {
+                        "id": "resp0003",
+                        "response": "siedlungen",
+                        "position": "3",
+                        "score": "1"
+                    },
+                    {
+                        "id": "resp0004",
+                        "response": "landwirtschaft",
+                        "position": "1",
+                        "score": "1"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "LA_0012",
+            "title": "LA_0012",
+            "objectives": [{"title": "none"}, {"title": "none"}],
+            "prerequisites": [{"ref": "none"}],
+            "description": "",
+            "feedback_pos": "",
+            "feedback_neg": "",
+            "type": "knowledge-object",
+            "file": "qti_LA_0012.xml",
+            "size": "0",
+            "difficulty": "easy",
+            "language": "de",
+            "author": "D.W.",
+            "creationdate": "17.10.2017",
+            "keywords": ["interaction:fact", "topic:deutschland", "subtopic:deutschland", "difficulty:easy"],
+            "next": [
+                {"succeed": "true", "interaction": "fact", "difficulty": "easy", "ref": "LA_0014"}
+            ],
+            "content": {
+                "interaction": "fact",
+                "fact": "Deutschland ist eines der waldreichsten Laender in der Europaeischen Union. Die aktuelle Baumartenzusammensetzung entspricht nur zum geringen Teil den natuerlichen Gegebenheiten und wird hauptsaechlich von der Forstwirtschaft bestimmt."
+            }
+        },
+        {
+            "id": "LA_0013",
+            "title": "LA_0013",
+            "objectives": [{"title": "none"}, {"title": "none"}],
+            "prerequisites": [{"ref": "none"}],
+            "description": "",
+            "feedback_pos": "",
+            "feedback_neg": "",
+            "type": "knowledge-object",
+            "file": "qti_LA_0013.xml",
+            "size": "0",
+            "difficulty": "easy",
+            "language": "de",
+            "author": "D.W.",
+            "creationdate": "17.10.2017",
+            "keywords": ["interaction:fact", "topic:deutschland", "subtopic:deutschland", "difficulty:easy"],
+            "next": [
+                {"succeed": "true", "interaction": "sc", "difficulty": "easy", "ref": "LA_0015"}
+            ],
+            "content": {
+                "interaction": "fact",
+                "fact": "Rund die Haelfte der Staatsflaeche wird als Dauergruenland sowie zum Anbau von Nutzpflanzen benutzt. Im Jahr 2009 wurden in Deutschland vor allem Weizen, Mais und Raps angebaut. Im Vergleich dazu spielen Obstanlagen, Baumschulen und Weihnachtsbaumkulturen hinsichtlich des Flaechenverbrauchs keine grosse Rolle. Zunehmend spielt die Landwirtschaft auch eine Rolle in der Energieerzeugung, vor allem durch den Anbau von Energiepflanzen und die Nutzung von Biogas sowie von Photovoltaik und als Verpaechter von Flaechen fuer Windenergie. Inzwischen gelten Landwirte als unverzichtbare Treiber der Energiewende."
+            }
+        },
+        {
+            "id": "LA_0014",
+            "title": "LA_0014",
+            "objectives": [{"title": "none"}, {"title": "none"}],
+            "prerequisites": [{"ref": "none"}],
+            "description": "",
+            "feedback_pos": "",
+            "feedback_neg": "",
+            "type": "knowledge-object",
+            "file": "qti_LA_0014.xml",
+            "size": "0",
+            "difficulty": "easy",
+            "language": "de",
+            "author": "D.W.",
+            "creationdate": "17.10.2017",
+            "keywords": ["interaction:fact", "topic:deutschland", "subtopic:deutschland", "difficulty:easy"],
+            "next": [
+                {"succeed": "true", "interaction": "asso", "difficulty": "easy", "ref": "LA_0018"}
+            ],
+            "content": {
+                "interaction": "fact",
+                "fact": "Die haeufigsten Baumarten sind die Gemeine Fichte, gefolgt von der Waldkiefer, der Rotbuche und den Eichen."
+            }
+        },
+        {
+            "id": "LA_0015",
+            "title": "LA_0015",
+            "objectives": [{"title": "none"}, {"title": "none"}],
+            "prerequisites": [{"ref": "none"}],
+            "description": "Deutschland isst viel Teigwaren und braucht daher viel Mehl.",
+            "feedback_pos": "Genau! Weizen ist Spitzenreiter unter den angebauten Getreiden. Weiter so!",
+            "feedback_neg": "Schade, die Antwort ist leider nicht richtig. Weizen ist die korrekte Antwort. ",
+            "type": "test-object",
+            "file": "qti_LA_0015.xml",
+            "size": "0",
+            "difficulty": "easy",
+            "language": "de",
+            "author": "D.W.",
+            "creationdate": "17.10.2017",
+            "keywords": ["interaction:sc", "topic:deutschland", "subtopic:deutschland", "difficulty:easy"],
+            "next": [
+                {"succeed": "true", "interaction": "txt", "difficulty": "easy", "ref": "LA_0017"},
+                {"succeed": "false", "interaction": "fact", "difficulty": "easy", "ref": "LA_0016"}
+            ],
+            "content": {
+                "interaction": "sc",
+                "question": "Nenne mir die in Deutschland am haeufigsten angebaute Nutzpflanze!",
+                "responses": [
+                    {
+                        "id": "resp0001",
+                        "response": "kartoffel",
+                        "isCorrect": "no",
+                        "score": "0"
+                    },
+                    {
+                        "id": "resp0002",
+                        "response": "weizen",
+                        "isCorrect": "yes",
+                        "score": "1"
+                    },
+                    {
+                        "id": "resp0003",
+                        "response": "zuckerruebe",
+                        "isCorrect": "no",
+                        "score": "0"
+                    },
+                    {
+                        "id": "resp0004",
+                        "response": "sojabohne",
+                        "isCorrect": "no",
+                        "score": "0"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "LA_0016",
+            "title": "LA_0016",
+            "objectives": [{"title": "none"}, {"title": "none"}],
+            "prerequisites": [{"ref": "none"}],
+            "description": "",
+            "feedback_pos": "",
+            "feedback_neg": "",
+            "type": "knowledge-object",
+            "file": "qti_LA_0016.xml",
+            "size": "0",
+            "difficulty": "easy",
+            "language": "de",
+            "author": "D.W.",
+            "creationdate": "17.10.2017",
+            "keywords": ["interaction:fact", "topic:deutschland", "subtopic:deutschland", "difficulty:easy"],
+            "next": [
+                {"succeed": "true", "interaction": "txt", "difficulty": "easy", "ref": "LA_0017"}
+            ],
+            "content": {
+                "interaction": "fact",
+                "fact": "Weizen ist das Hauptgetreide in gemaessigten Klimazonen. Es zaehlt neben Mais und Reis zu den wichtigsten Grundnahrungsmitteln weltweit. Darum beanstanden Kritiker die wertvolle Nutzpfanzenflaeche fuer die Energieerzeugung zu entwenden."
+            }
+        },
+        {
+            "id": "LA_0017",
+            "title": "LA_0017",
+            "objectives": [{"title": "none"}, {"title": "none"}],
+            "prerequisites": [{"ref": "none"}],
+            "description": "",
+            "feedback_pos": "",
+            "feedback_neg": "",
+            "type": "test-object",
+            "file": "qti_LA_0017.xml",
+            "size": "0",
+            "difficulty": "easy",
+            "language": "de",
+            "author": "D.W.",
+            "creationdate": "17.10.2017",
+            "keywords": ["interaction:txt", "topic:deutschland", "subtopic:deutschland", "difficulty:easy"],
+            "next": [
+                {"succeed": "true", "interaction": "fact", "difficulty": "easy", "ref": "LA_0012"},
+                {"succeed": "false", "interaction": "fact", "difficulty": "easy", "ref": "LA_0012"}
+            ],
+            "content": {
+                "interaction": "txt",
+                "question": "Wie heissen die Pflanzen, die Energie erzeugen koennen?",
+                "responses": [
+                    {
+                        "id": "resp0001",
+                        "response": "energiepflanzen",
+                        "score": "1"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "LA_0018",
+            "title": "LA_0018",
+            "objectives": [{"title": "none"}, {"title": "none"}],
+            "prerequisites": [{"ref": "none"}],
+            "description": "Kiefern werden von einigen auch als Weihnachtsbaum verwendet.",
+            "feedback_pos": "Super! Du hast ein gutes Basiswissen ueber Deutschland und seine Natur.",
+            "feedback_neg": "Das stimmt leider nicht, die Waldkiefer ist ein Nadelbaum und die Rotbuche ein Laubbaum. Merk es dir gut.",
+            "type": "test-object",
+            "file": "qti_LA_0018.xml",
+            "size": "0",
+            "difficulty": "easy",
+            "language": "de",
+            "author": "D.W.",
+            "creationdate": "17.10.2017",
+            "keywords": ["interaction:asso", "topic:deutschland", "subtopic:deutschland", "difficulty:easy"],
+            "next": [
+                {"succeed": "true", "interaction": "fact", "difficulty": "easy", "ref": "LA_0001"},
+                {"succeed": "false", "interaction": "fact", "difficulty": "easy", "ref": "LA_0001"}
+            ],
+            "content": {
+                    "interaction": "asso",
+                    "question": "Ordne zwei der genannten Baumarten ihrer Familie zu!",
+                    "responses": [
+                        {
+                            "id": "resp0001",
+                            "response": "waldkiefer",
+                            "type": "a",
+                            "associated": "resp0004",
+                            "score": "1"
+                        },
+                        {
+                            "id": "resp0002",
+                            "response": "rotbuche",
+                            "type": "a",
+                            "associated": "resp0003",
+                            "score": "1"
+                        },
+                        {
+                            "id": "resp0003",
+                            "response": "laubbaum",
+                            "type": "b",
+                            "associated": "resp0002",
+                            "score": "1"
+                        },
+                        {
+                            "id": "resp0004",
+                            "response": "nadelbaum",
+                            "type": "b",
+                            "associated": "resp0001",
+                            "score": "1"
+                        }
+                    ]
+                }
+        }
+    ],
+    "activity_structure": [
+        {"id": "LA_0001"},
+        {"id": "LA_0002"},
+        {"id": "LA_0003"},
+        {"id": "LA_0004"},
+        {"id": "LA_0006"},
+        {"id": "LA_0009"},
+        {"id": "LA_0010"},
+        {"id": "LA_0011"},
+        {"id": "LA_0012"},
+        {"id": "LA_0014"},
+        {"id": "LA_0018"}
+    ]
+}

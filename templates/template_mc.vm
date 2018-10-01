@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p2  http://www.imsglobal.org/xsd/qti/qtiv2p2/imsqti_v2p2.xsd"
+	identifier="ITM_${id}" title="${title}" adaptive="false" timeDependent="false">
+	<responseDeclaration identifier="RESPONSE" cardinality="multiple" baseType="identifier">
+		<correctResponse>
+			#foreach ($response in $content.responses)
+			#if ($response.isCorrect == 'yes')
+			<value>${response.id}</value>
+			#end
+			#end
+		</correctResponse>
+		<mapping defaultValue="0">
+			#foreach ($response in $content.responses)
+			<mapEntry mapKey="${response.id}" mappedValue="${response.score}"/>
+			#end
+		</mapping>
+	</responseDeclaration>
+	<outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+	<itemBody>
+		<choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="0">
+			<prompt>$content.question</prompt>
+			#foreach ($response in $content.responses)
+			<simpleChoice identifier="${response.id}" fixed="false">${response.response}</simpleChoice>
+			#end
+		</choiceInteraction>
+	</itemBody>
+	<responseProcessing
+		template="http://www.imsglobal.org/question/qti_v2p2/rptemplates/map_response"/>
+</assessmentItem>

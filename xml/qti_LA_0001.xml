@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knowledgeItem identifier="ITM_LA_0001" title="LA_0001" adaptive="false" timeDependent="false">
+	<outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+	<itemBody>
+		<fact>
+			<prompt>Deutschland ist ein Bundesstaat in Mitteleuropa. Er besteht aus 16 Bundeslaendern und ist als freiheitlich demokratischer und sozialer Rechtsstaat verfasst.</prompt>
+		</fact>
+	</itemBody>
+</knowledgeItem>

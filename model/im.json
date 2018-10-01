@@ -1,0 +1,445 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "answer",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "zehn",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "zwoelf",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "vierzehn",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sechzehn",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "koeln",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "hannover",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "frankfurt",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "berlin",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "bremen",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "hamburg",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "muenchen",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "stuttgart",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "duesseldorf",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "kartoffel",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "weizen",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "zuckerruebe",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sojabohne",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "energiepflanzen",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "waldkiefer und nadelbaum und rotbuche und laubbaum",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "rotbuche und laubbaum und waldkiefer und nadelbaum",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "eins landwirtschaft zwei wald drei siedlungen vier wasser",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "koeln und frankfurt",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "frankfurt und koeln",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "CatchAll",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "antwort ja",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "antwort nein",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "antwort ich habe hunger auf pizza",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "antwort was soll das denn werden bitte",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "topics",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Deutschland",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "tslot",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Hallo",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Welt",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Flasche",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Tasche",
+              "synonyms": []
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": [
+          "was kann ich tun",
+          "was soll ich tun",
+          "was kann ich machen",
+          "was soll ich machen",
+          "optionen",
+          "was sind meine optionen"
+        ]
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": [
+          "aufhören",
+          "schluss",
+          "aus",
+          "ende",
+          "lass und ein anderes mal weiter machen",
+          "lass uns schluss machen",
+          "ich will nicht mehr",
+          "lass pause machen",
+          "pause"
+        ]
+      },
+      {
+        "name": "AnswerIntent",
+        "samples": [
+          "antwort {answer}"
+        ],
+        "slots": [
+          {
+            "name": "answer",
+            "type": "answer"
+          }
+        ]
+      },
+      {
+        "name": "ContinueIntent",
+        "samples": [
+          "weiter",
+          "überspringen",
+          "skip",
+          "skippen",
+          "next",
+          "nächste",
+          "nächstes",
+          "fahre fort",
+          "mach weiter"
+        ],
+        "slots": []
+      },
+      {
+        "name": "HintIntent",
+        "samples": [
+          "Hilfe",
+          "Hilf mir",
+          "Gib mir einen Hinweis",
+          "Hinweis",
+          "Hinweis bitte",
+          "Gib mir Hilfe",
+          "Tipp",
+          "Gib mir einen Tipp",
+          "Tipp bitte",
+          "bitte ein Tipp",
+          "bitte ein Hinweis",
+          "bitte um Hilfe",
+          "ich bin mir nicht sicher"
+        ],
+        "slots": []
+      },
+      {
+        "name": "LoginIntent",
+        "samples": [
+          "logge {name} ein",
+          "bitte logge {name} ein",
+          "{name} einloggen",
+          "login für {name}",
+          "log in für {name}",
+          "melde {name} an",
+          "bitte log {name} ein",
+          "login {name}"
+        ],
+        "slots": [
+          {
+            "name": "name",
+            "type": "AMAZON.DE_FIRST_NAME"
+          }
+        ]
+      },
+      {
+        "name": "LogoutIntent",
+        "samples": [
+          "ausloggen",
+          "logge aus",
+          "abmelden",
+          "melde ab",
+          "melde mich ab",
+          "logge mich aus",
+          "logout",
+          "bitte log mich aus"
+        ],
+        "slots": []
+      },
+      {
+        "name": "NoIntent",
+        "samples": [
+          "Nein",
+          "Nee",
+          "Ne",
+          "Nö",
+          "No",
+          "Niemals",
+          "Nie",
+          "Nope"
+        ],
+        "slots": []
+      },
+      {
+        "name": "RecommendationIntent",
+        "samples": [
+          "{topic}",
+          "Ich nehme {topic}",
+          "wähle thema {topic}",
+          "wähle das thema {topic}",
+          "wähle {topic}",
+          "wähl {topic}",
+          "nimm {topic}",
+          "{topic} klingt gut",
+          "{topic} klingt interessant"
+        ],
+        "slots": [
+          {
+            "name": "topic",
+            "type": "topics"
+          }
+        ]
+      },
+      {
+        "name": "RepeatIntent",
+        "samples": [
+          "wiederholen",
+          "was hast du gesagt",
+          "wie war nochmal die frage",
+          "frage wiederholen",
+          "nochmal",
+          "ich hab dich nicht verstanden",
+          "ich habe dich nicht verstanden",
+          "mach den papagei"
+        ],
+        "slots": []
+      },
+      {
+        "name": "WhoisIntent",
+        "samples": [
+          "Hier ist {name}",
+          "Mein Name ist {name}",
+          "Ich bin {name}",
+          "{name}",
+          "Ich heiße {name}",
+          "ich heisse {name}"
+        ],
+        "slots": [
+          {
+            "name": "name",
+            "type": "AMAZON.DE_FIRST_NAME"
+          }
+        ]
+      },
+      {
+        "name": "YesIntent",
+        "samples": [
+          "Ja",
+          "Jo",
+          "Jup",
+          "Yes",
+          "Yeah",
+          "Jeah",
+          "Ja ok",
+          "Ja okay",
+          "Ja ja",
+          "Ok",
+          "Okay",
+          "Nagut",
+          "Na gut"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "HomeTutor"
+  }
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p2  http://www.imsglobal.org/xsd/qti/qtiv2p2/imsqti_v2p2.xsd"
+	identifier="ITM_LA_0018" title="LA_0018" adaptive="false" timeDependent="false">
+	<responseDeclaration identifier="RESPONSE" cardinality="multiple" baseType="pair">
+		<correctResponse>
+			
+									<value>resp0001 resp0004</value>
+							
+									<value>resp0002 resp0003</value>
+							
+							
+									</correctResponse>
+		<mapping defaultValue="0">
+			
+									<mapEntry mapKey="resp0001 resp0004" mappedValue="1"/>
+							
+									<mapEntry mapKey="resp0002 resp0003" mappedValue="1"/>
+							
+							
+									</mapping>
+	</responseDeclaration>
+	<outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+	<itemBody>
+		<associateInteraction responseIdentifier="RESPONSE" shuffle="true" maxAssociations="3">
+			<prompt>Ordne zwei der genannten Baumarten ihrer Familie zu!</prompt>
+			
+			<simpleAssociableChoice identifier="resp0001" matchMax="1">waldkiefer</simpleAssociableChoice>
+			
+			<simpleAssociableChoice identifier="resp0002" matchMax="1">rotbuche</simpleAssociableChoice>
+			
+			<simpleAssociableChoice identifier="resp0003" matchMax="1">laubbaum</simpleAssociableChoice>
+			
+			<simpleAssociableChoice identifier="resp0004" matchMax="1">nadelbaum</simpleAssociableChoice>
+					</associateInteraction>
+	</itemBody>
+	<responseProcessing
+		template="http://www.imsglobal.org/question/qti_v2p2/rptemplates/map_response"/>
+</assessmentItem>
